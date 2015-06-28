@@ -1,0 +1,21 @@
+<section id="resources">
+  <div class="container">
+    <div class="heading-center">
+      <h2 class="section-heading">{{site.data.texts.resources.heading}}</h2>
+      <p class="lead">{{site.data.texts.resources.lead}}</p>
+      <hr>
+    </div>
+    {% for resource in site.data.resources %}
+    <div class="row">
+      <div class="col-md-4">
+        <div class="boxed-content left-aligned">
+          <i class="fa fa-{{resource-icon}} text-body-color"></i>
+          <h2 class="boxed-content-title">{{resource.title}}</h2>
+          <p>{{resource.content}}</p>
+          <a href="{{site.baseurl}}/{{site.prose.media}}/{{resource.link}}" target="_blank" download class="btn btn-primary">
+            <span class="fa fa-download"></span> Download</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+</section>

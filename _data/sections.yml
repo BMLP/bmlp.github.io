@@ -1,0 +1,15 @@
+who-we-are:
+  heading: "Who We Are"
+  lead: 'Who "does the work" of BMLP'
+  menu: "Who"
+  url: "who-we-are"
+what-we-do:
+  heading: "What we do"
+  lead: "What our organization provides to the movement"
+  menu: "Resources"
+  url: "what-we-do"
+resources:
+  heading: "Movement Resources"
+  lead: "Tools and Resources for Legal Observers, Jail Support Volunteers & Trainers"
+  menu: "Resources"
+  url: "resources"
