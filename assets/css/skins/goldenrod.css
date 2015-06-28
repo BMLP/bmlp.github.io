@@ -1,41 +1,51 @@
 /* Skin: Golden Rod */
+/* line 6, ../../../sass/skins/_skin-styles.scss */
 a {
   color: #DAA520;
 }
+/* line 9, ../../../sass/skins/_skin-styles.scss */
 a:hover, a:focus {
   color: #b68a1b;
 }
 
+/* line 14, ../../../sass/skins/_skin-styles.scss */
 .btn-primary {
   background-color: #DAA520;
   border-color: #cd9b1e;
 }
+/* line 18, ../../../sass/skins/_skin-styles.scss */
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active,
 .btn-primary .open > .dropdown-toggle.btn-primary {
   background-color: #cd9b1e;
   border-color: #b68a1b;
 }
 
+/* line 25, ../../../sass/skins/_skin-styles.scss */
 .navbar-toggle {
   background-color: #DAA520;
 }
 
+/* line 30, ../../../sass/skins/_skin-styles.scss */
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background-color: #b68a1b;
 }
 
+/* line 35, ../../../sass/skins/_skin-styles.scss */
 .navbar-nav .dropdown-menu {
   border-top: 2px solid #ae8319;
 }
 
+/* line 41, ../../../sass/skins/_skin-styles.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #b68a1b;
 }
+/* line 46, ../../../sass/skins/_skin-styles.scss */
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #b68a1b;
 }
+/* line 52, ../../../sass/skins/_skin-styles.scss */
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
@@ -43,212 +53,263 @@ a:hover, a:focus {
 }
 
 @media screen and (max-width: 992px) {
+  /* line 61, ../../../sass/skins/_skin-styles.scss */
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus,
   .navbar-default .navbar-nav > .active.open > a, .navbar-default .navbar-nav > .active.open > a:hover, .navbar-default .navbar-nav > .active.open > a:focus {
     background-color: #DAA520;
     color: #fff;
   }
 }
+/* line 69, ../../../sass/skins/_skin-styles.scss */
 .hero-unit-animated .hero-button {
   background-color: #DAA520;
 }
+/* line 72, ../../../sass/skins/_skin-styles.scss */
 .hero-unit-animated .hero-button:hover, .hero-unit-animated .hero-button:focus {
   background-color: #cd9b1e;
 }
 
+/* line 78, ../../../sass/skins/_skin-styles.scss */
 .hero-unit-slider .hero-button:hover, .hero-unit-slider .hero-button:focus {
   background: #DAA520;
   color: #fff;
 }
 
+/* line 85, ../../../sass/skins/_skin-styles.scss */
 .boxed-content > i {
   color: #DAA520;
 }
+/* line 89, ../../../sass/skins/_skin-styles.scss */
 .boxed-content.left-boxed-icon i {
   background: #DAA520;
 }
 
+/* line 94, ../../../sass/skins/_skin-styles.scss */
 .section-heading:after {
   color: #DAA520;
 }
 
+/* line 98, ../../../sass/skins/_skin-styles.scss */
 .full-width-section {
   background-color: #DAA520;
 }
 
 /* latest news */
+/* line 104, ../../../sass/skins/_skin-styles.scss */
 .news-item a:hover, .news-item a:focus {
   color: #DAA520;
 }
 
 /* blog list */
+/* line 112, ../../../sass/skins/_skin-styles.scss */
 .blog .entry-title a:hover, .blog .entry-title a:focus {
   color: #DAA520;
 }
+/* line 118, ../../../sass/skins/_skin-styles.scss */
 .blog .meta-line a:hover, .blog .meta-line a:focus {
   color: #DAA520;
 }
 
+/* line 124, ../../../sass/skins/_skin-styles.scss */
 .tag-list li a {
   background-color: #DAA520;
 }
 
+/* line 129, ../../../sass/skins/_skin-styles.scss */
 .category-list li a:hover, .category-list li a:focus {
   color: #DAA520;
 }
 
+/* line 134, ../../../sass/skins/_skin-styles.scss */
 .panel-group-faq.top-faq .panel-heading .number {
   background-color: #DAA520;
 }
 
+/* line 138, ../../../sass/skins/_skin-styles.scss */
 .team-member .team-name {
   background-color: #DAA520;
 }
 
+/* line 143, ../../../sass/skins/_skin-styles.scss */
 .portfolio-item .overlay {
   background-color: rgba(218, 165, 32, 0.9);
 }
+/* line 147, ../../../sass/skins/_skin-styles.scss */
 .portfolio-item .btn {
   background-color: #e0ac2a;
   border: 1px solid #c4941d;
 }
+/* line 151, ../../../sass/skins/_skin-styles.scss */
 .portfolio-item .btn:hover, .portfolio-item .btn:focus {
   background-color: #DAA520;
 }
 
+/* line 158, ../../../sass/skins/_skin-styles.scss */
 .portfolio-item-filters li a:hover, .portfolio-item-filters li a:focus {
   color: #DAA520;
 }
+/* line 162, ../../../sass/skins/_skin-styles.scss */
 .portfolio-item-filters li a.active {
   background-color: #DAA520;
 }
 
 /* tabs */
 @media screen and (max-width: 480px) {
+  /* line 171, ../../../sass/skins/_skin-styles.scss */
   .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     background-color: #DAA520;
   }
 }
 
+/* line 180, ../../../sass/skins/_skin-styles.scss */
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   background-color: #DAA520;
 }
 
+/* line 187, ../../../sass/skins/_skin-styles.scss */
 .custom-tabs-line.tabs-line-top .active a {
   border-top-color: #DAA520;
 }
+/* line 191, ../../../sass/skins/_skin-styles.scss */
 .custom-tabs-line.tabs-line-bottom .active a {
   border-bottom: 1px solid #DAA520;
 }
 
+/* line 197, ../../../sass/skins/_skin-styles.scss */
 .pagination > li > a,
 .pagination > li > span {
   color: #DAA520;
 }
+/* line 284, ../../../sass/modules/_mixins.scss */
 .pagination > li > a:hover, .pagination > li > span:hover,
 .pagination > li > a:focus, .pagination > li > span:focus {
   background-color: #e3b440;
   border-color: #DAA520;
   color: #fff;
 }
+/* line 207, ../../../sass/skins/_skin-styles.scss */
 .pagination > .active > a, .pagination > .active > span {
   background-color: #DAA520;
   border-color: #c4941d;
 }
 
+/* line 217, ../../../sass/skins/_skin-styles.scss */
 .pagination.borderless > li.active > a,
 .pagination.borderless > li.active > span {
   background-color: #DAA520;
 }
+/* line 221, ../../../sass/skins/_skin-styles.scss */
 .pagination.borderless > li.active > a:hover, .pagination.borderless > li.active > a:focus,
 .pagination.borderless > li.active > span:hover,
 .pagination.borderless > li.active > span:focus {
   background-color: #DAA520;
 }
 
+/* line 231, ../../../sass/skins/_skin-styles.scss */
 .pager li > a:hover, .pager li > a:focus {
   background-color: #DAA520;
   border-color: #cd9b1e;
 }
 
+/* line 238, ../../../sass/skins/_skin-styles.scss */
 .slick-next,
 .slick-prev {
   background-color: #DAA520;
 }
+/* line 242, ../../../sass/skins/_skin-styles.scss */
 .slick-next:hover, .slick-next:focus,
 .slick-prev:hover,
 .slick-prev:focus {
   background-color: #c4941d;
 }
 
+/* line 249, ../../../sass/skins/_skin-styles.scss */
 .newsletter-form .input-group-lg > .input-group-btn > .btn {
   background-color: #DAA520;
 }
+/* line 252, ../../../sass/skins/_skin-styles.scss */
 .newsletter-form .input-group-lg > .input-group-btn > .btn:hover, .newsletter-form .input-group-lg > .input-group-btn > .btn:focus {
   background-color: #c4941d;
 }
 
+/* line 262, ../../../sass/skins/_skin-styles.scss */
 ul.sidebar-nav li a:hover {
   color: #DAA520;
 }
+/* line 266, ../../../sass/skins/_skin-styles.scss */
 ul.sidebar-nav li a.current a {
   color: #DAA520;
 }
+/* line 271, ../../../sass/skins/_skin-styles.scss */
 ul.sidebar-nav li.current a {
   color: #DAA520;
 }
+/* line 278, ../../../sass/skins/_skin-styles.scss */
 ul.sidebar-nav li.has-submenu.active > a,
 ul.sidebar-nav li.has-submenu.active li.active > a {
   color: #DAA520;
 }
 
+/* line 288, ../../../sass/skins/_skin-styles.scss */
 .breadcrumb > li.active {
   color: #DAA520;
 }
+/* line 294, ../../../sass/skins/_skin-styles.scss */
 .breadcrumb a:hover, .breadcrumb a:focus {
   color: #DAA520;
 }
+/* line 300, ../../../sass/skins/_skin-styles.scss */
 .breadcrumb.link-accent a {
   color: #DAA520;
 }
+/* line 303, ../../../sass/skins/_skin-styles.scss */
 .breadcrumb.link-accent a:hover, .breadcrumb.link-accent a:focus {
   color: #b68a1b;
 }
 
+/* line 312, ../../../sass/skins/_skin-styles.scss */
 .fancy-checkbox input[type="checkbox"]:checked + span:before {
   background: #DAA520;
   border: 1px solid #DAA520;
 }
 
+/* line 321, ../../../sass/skins/_skin-styles.scss */
 .fancy-radio input[type="radio"]:checked + span i:after {
   background-color: #DAA520;
 }
 
 /* switch checkbox and radio */
+/* line 330, ../../../sass/skins/_skin-styles.scss */
 .switch-input input:checked + i {
   border-color: #DAA520;
 }
+/* line 336, ../../../sass/skins/_skin-styles.scss */
 .switch-input i:before {
   background-color: #DAA520;
 }
 
+/* line 342, ../../../sass/skins/_skin-styles.scss */
 .single-pricing-table .btn span {
   color: #ebc975;
 }
 
+/* line 346, ../../../sass/skins/_skin-styles.scss */
 .text-accent-color {
   color: #DAA520;
 }
 
 /* date picker */
+/* line 353, ../../../sass/skins/_skin-styles.scss */
 .datepicker td.active:active, .datepicker td.active.active {
   background-color: #DAA520;
   border-color: #ae8319;
 }
+/* line 359, ../../../sass/skins/_skin-styles.scss */
 .datepicker td.active:hover:active, .datepicker td.active:hover.active {
   background-color: #DAA520;
   border-color: #ae8319;
 }
+/* line 367, ../../../sass/skins/_skin-styles.scss */
 .datepicker table tr td.active:hover, .datepicker table tr td.active:hover:hover, .datepicker table tr td.active.disabled:hover, .datepicker table tr td.active.disabled:hover:hover, .datepicker table tr td.active:active, .datepicker table tr td.active:hover:active, .datepicker table tr td.active.disabled:active, .datepicker table tr td.active.disabled:hover:active, .datepicker table tr td.active.active, .datepicker table tr td.active:hover.active, .datepicker table tr td.active.disabled.active, .datepicker table tr td.active.disabled:hover.active, .datepicker table tr td.active.disabled, .datepicker table tr td.active:hover.disabled, .datepicker table tr td.active.disabled.disabled, .datepicker table tr td.active.disabled:hover.disabled,
 .datepicker table tr td.active [disabled], .datepicker table tr td.active:hover[disabled], .datepicker table tr td.active.disabled[disabled], .datepicker table tr td.active.disabled:hover[disabled] {
   background-color: #DAA520;
@@ -256,18 +317,22 @@ ul.sidebar-nav li.has-submenu.active li.active > a {
 }
 
 /* date range picker */
+/* line 380, ../../../sass/skins/_skin-styles.scss */
 .daterangepicker td.active, .daterangepicker td.active:hover {
   background-color: #DAA520;
   border-color: #ae8319;
 }
+/* line 385, ../../../sass/skins/_skin-styles.scss */
 .daterangepicker td.in-range {
   background: #f7e8c5;
 }
 
+/* line 391, ../../../sass/skins/_skin-styles.scss */
 .dropcap {
   background-color: #DAA520;
 }
 
+/* line 396, ../../../sass/skins/_skin-styles.scss */
 .testimonial-fancy i {
   color: #DAA520;
 }

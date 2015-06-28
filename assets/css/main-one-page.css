@@ -20,7 +20,7 @@ body {
 }
 /* line 9, ../../sass/partials/_general.scss */
 body.layout-boxed {
-  background-image: url('/assets/img/gray_jean.png?1435451946');
+  background-image: url('/assets/img/gray_jean.png?1435531226');
   background-repeat: repeat;
   background-color: #ccc;
 }
@@ -3231,52 +3231,53 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .navbar-default .navbar-nav > li > a {
   font-weight: 600;
   color: #474747;
+  text-transform: uppercase;
 }
-/* line 137, ../../sass/partials/_navbar.scss */
+/* line 138, ../../sass/partials/_navbar.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #355987;
 }
-/* line 142, ../../sass/partials/_navbar.scss */
+/* line 143, ../../sass/partials/_navbar.scss */
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #355987;
   background-color: transparent;
 }
-/* line 149, ../../sass/partials/_navbar.scss */
+/* line 150, ../../sass/partials/_navbar.scss */
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   color: #355987;
   background-color: transparent;
 }
-/* line 156, ../../sass/partials/_navbar.scss */
+/* line 157, ../../sass/partials/_navbar.scss */
 .navbar-default .navbar-nav .dropdown-toggle i {
   margin-left: 3px;
   color: #b8b8b8;
 }
 
-/* line 164, ../../sass/partials/_navbar.scss */
+/* line 165, ../../sass/partials/_navbar.scss */
 .navbar-fixed-top.shrinkable, .navbar-fixed-top.shrinkable .navbar-brand img {
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-/* line 169, ../../sass/partials/_navbar.scss */
+/* line 170, ../../sass/partials/_navbar.scss */
 .navbar-fixed-top.shrink-active {
   top: -42px;
 }
-/* line 173, ../../sass/partials/_navbar.scss */
+/* line 174, ../../sass/partials/_navbar.scss */
 .navbar-fixed-top.shrink-active .navbar-brand > img {
   width: 90px;
 }
-/* line 179, ../../sass/partials/_navbar.scss */
+/* line 180, ../../sass/partials/_navbar.scss */
 .navbar-fixed-top .navbar-nav {
   margin-right: -10px;
 }
 
-/* line 184, ../../sass/partials/_navbar.scss */
+/* line 185, ../../sass/partials/_navbar.scss */
 .navbar-nav .dropdown-menu {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
@@ -3289,30 +3290,30 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   border: none;
   border-top: 2px solid #32557f;
 }
-/* line 193, ../../sass/partials/_navbar.scss */
+/* line 194, ../../sass/partials/_navbar.scss */
 .navbar-nav .dropdown-menu > li > a {
   padding: 8px 12px;
   font-size: 13px;
 }
-/* line 197, ../../sass/partials/_navbar.scss */
+/* line 198, ../../sass/partials/_navbar.scss */
 .navbar-nav .dropdown-menu > li > a:hover, .navbar-nav .dropdown-menu > li > a:focus {
   background-color: #6A737E;
   color: #fff;
 }
-/* line 202, ../../sass/partials/_navbar.scss */
+/* line 203, ../../sass/partials/_navbar.scss */
 .navbar-nav .dropdown-menu > li > a i {
   position: absolute;
   right: 11px;
   top: 11px;
 }
-/* line 209, ../../sass/partials/_navbar.scss */
+/* line 210, ../../sass/partials/_navbar.scss */
 .navbar-nav .dropdown-menu .dropdown.open > a,
 .navbar-nav .dropdown-menu .dropdown.open > a:hover,
 .navbar-nav .dropdown-menu .dropdown.open > a:focus {
   color: #fff;
   background-color: #6A737E;
 }
-/* line 216, ../../sass/partials/_navbar.scss */
+/* line 217, ../../sass/partials/_navbar.scss */
 .navbar-nav .dropdown-menu .dropdown-menu {
   top: -2px;
   left: 100%;
@@ -3320,67 +3321,67 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   border-left: 1px solid #6A737E;
   min-width: 190px;
 }
-/* line 223, ../../sass/partials/_navbar.scss */
+/* line 224, ../../sass/partials/_navbar.scss */
 .navbar-nav .dropdown-menu .dropdown-menu li {
   display: block;
 }
 
 @media screen and (max-width: 992px) {
-  /* line 230, ../../sass/partials/_navbar.scss */
+  /* line 231, ../../sass/partials/_navbar.scss */
   .navbar-toggle {
     display: block;
     margin-right: 0;
   }
 
-  /* line 235, ../../sass/partials/_navbar.scss */
+  /* line 236, ../../sass/partials/_navbar.scss */
   .navbar-collapse.collapse {
     display: none !important;
   }
 
-  /* line 239, ../../sass/partials/_navbar.scss */
+  /* line 240, ../../sass/partials/_navbar.scss */
   .navbar-collapse.collapse,
   .navbar-collapse.collapsing {
     padding-left: 0;
     padding-right: 0;
   }
 
-  /* line 245, ../../sass/partials/_navbar.scss */
+  /* line 246, ../../sass/partials/_navbar.scss */
   .navbar-collapse.collapse.in {
     display: block !important;
     overflow-y: auto !important;
   }
 
-  /* line 250, ../../sass/partials/_navbar.scss */
+  /* line 251, ../../sass/partials/_navbar.scss */
   .navbar-header,
   .navbar-nav,
   .navbar-nav > li {
     float: none !important;
   }
 
-  /* line 256, ../../sass/partials/_navbar.scss */
+  /* line 257, ../../sass/partials/_navbar.scss */
   .navbar-default .navbar-nav {
     margin-right: 0;
   }
-  /* line 259, ../../sass/partials/_navbar.scss */
+  /* line 260, ../../sass/partials/_navbar.scss */
   .navbar-default .navbar-nav a {
     padding-top: 8px;
     padding-bottom: 8px;
   }
-  /* line 264, ../../sass/partials/_navbar.scss */
+  /* line 265, ../../sass/partials/_navbar.scss */
   .navbar-default .navbar-nav li > a > i {
     position: absolute;
     right: 15px;
     top: 9px;
     font-size: 18px;
   }
-  /* line 271, ../../sass/partials/_navbar.scss */
+  /* line 272, ../../sass/partials/_navbar.scss */
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus,
   .navbar-default .navbar-nav > .active.open > a, .navbar-default .navbar-nav > .active.open > a:hover, .navbar-default .navbar-nav > .active.open > a:focus {
     background-color: #406da4;
     color: #fff;
   }
 
-  /* line 278, ../../sass/partials/_navbar.scss */
+  /* line 279, ../../sass/partials/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu {
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
@@ -3391,66 +3392,66 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     margin-top: 0;
     border: none;
   }
-  /* line 288, ../../sass/partials/_navbar.scss */
+  /* line 289, ../../sass/partials/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     padding: 5px 15px 5px 25px;
     color: #4a4a4a;
   }
-  /* line 293, ../../sass/partials/_navbar.scss */
+  /* line 294, ../../sass/partials/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li.active > a {
     color: inherit;
     background-color: #E7E7E7;
   }
 
-  /* line 301, ../../sass/partials/_navbar.scss */
+  /* line 302, ../../sass/partials/_navbar.scss */
   .dropdown-menu .dropdown .dropdown-menu {
     display: block;
     padding-left: 12px;
   }
-  /* line 306, ../../sass/partials/_navbar.scss */
+  /* line 307, ../../sass/partials/_navbar.scss */
   .dropdown-menu .dropdown a > i {
     display: none;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 313, ../../sass/partials/_navbar.scss */
+  /* line 314, ../../sass/partials/_navbar.scss */
   .navbar-brand {
     margin-top: 0;
   }
 
-  /* line 317, ../../sass/partials/_navbar.scss */
+  /* line 318, ../../sass/partials/_navbar.scss */
   .navbar-collapse.collapse,
   .navbar-collapse.collapsing {
     padding-left: 15px;
     padding-right: 15px;
   }
 
-  /* line 323, ../../sass/partials/_navbar.scss */
+  /* line 324, ../../sass/partials/_navbar.scss */
   .navbar-default .navbar-nav {
     margin-left: 0;
   }
-  /* line 327, ../../sass/partials/_navbar.scss */
+  /* line 328, ../../sass/partials/_navbar.scss */
   .navbar-default .navbar-nav .dropdown-menu .dropdown a {
     background-color: inherit;
   }
-  /* line 331, ../../sass/partials/_navbar.scss */
+  /* line 332, ../../sass/partials/_navbar.scss */
   .navbar-default .navbar-nav .dropdown-menu .dropdown i {
     display: none;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 339, ../../sass/partials/_navbar.scss */
+  /* line 340, ../../sass/partials/_navbar.scss */
   .navbar-toggle {
     margin-right: 15px;
   }
 
-  /* line 343, ../../sass/partials/_navbar.scss */
+  /* line 344, ../../sass/partials/_navbar.scss */
   .navbar > .container .navbar-brand {
     margin-left: 5px;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 349, ../../sass/partials/_navbar.scss */
+  /* line 350, ../../sass/partials/_navbar.scss */
   .navbar > .container .navbar-brand {
     margin-left: -10px;
   }
@@ -3463,7 +3464,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .hero-unit-animated {
   padding: 100px 0;
   color: #fff;
-  background-image: url('/assets/img/hero-unit-bg.png?1435451948');
+  background-image: url('/assets/img/hero-unit-bg.png?1435531226');
   background-repeat: no-repeat;
   background-position: center -75px;
 }
@@ -4306,7 +4307,7 @@ div[class*="col-"] > .form-group {
 /* line 263, ../../sass/partials/_ui-elements.scss */
 .testimonial-with-bg {
   padding: 120px 0;
-  background-image: url('/assets/img/testimonial-bg.png?1435451948');
+  background-image: url('/assets/img/testimonial-bg.png?1435531226');
   background-attachment: fixed;
   background-position: center center;
   color: #fff;
@@ -5816,7 +5817,7 @@ ul.sidebar-nav ul.submenu li:first-child a {
 }
 /* line 158, ../../sass/partials/_pages.scss */
 .multiple-pricing-table .pricing-badge {
-  background-image: url('/assets/img/badge.png?1435451948');
+  background-image: url('/assets/img/badge.png?1435531226');
   background-repeat: no-repeat;
   width: 100px;
   height: 100px;

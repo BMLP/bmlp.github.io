@@ -133,6 +133,7 @@
 	> li > a {
 		font-weight: 600;
 		color: $heading-text-color;
+		text-transform: uppercase;
 
 		&:hover, &:focus {
 			color: $link-hover-color;
