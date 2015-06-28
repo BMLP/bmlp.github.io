@@ -1,13 +1,6 @@
 baseurl: ''
 host: '127.0.0.1'
 
-
-
-markdown: redcarpet
-redcarpet:
-  extensions: ["strikethrough"]
-
-
 prose:
   rooturl: ''
   siteurl: 'http://bmlp.github.io'
