@@ -17,6 +17,8 @@ prose:
     - Gemfile
     - Gemfile.lock
     - 404.html
+    - /sass
+    - .gitignore
   metadata:
     _posts:
       - name: "title"
