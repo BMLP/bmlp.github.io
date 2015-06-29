@@ -28,7 +28,6 @@ prose:
           element: "text"
           label: "Title"
           value: ""
-          placeholder: ""
       - name: "permalink"
           element: "text"
           label: "Permalink"
