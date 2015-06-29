@@ -11,11 +11,11 @@
       <div class="col-md-4">
         <div class="boxed-content left-aligned left-boxed-icon">
           {% if resource.fileorlink == 'file'%}
-          <a href="{{site.baseurl}}/{{site.prose.media}}/{{resource.path}}" target="_blank" download class="btn btn-primary">
+          <a href="{{site.baseurl}}/{{site.prose.media}}/{{resource.path}}" target="_blank" download>
             <span class="fa fa-download"></span>
           </a>
           {% elsif resource.fileorlink == 'link' %}
-          <a href="{{resource.link}}" target="_blank" class="btn btn-primary">
+          <a href="{{resource.link}}" target="_blank">
             <span class="fa fa-link"></span>
           </a>
           {% endif %}
