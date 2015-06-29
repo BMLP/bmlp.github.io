@@ -21,10 +21,6 @@ prose:
     _posts:
       - name: "title"
         field:
-          element: "hidden"
-          value: "title"
-      - name: "title"
-        field:
           element: "text"
           label: "Title"
           value: ""
