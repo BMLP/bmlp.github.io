@@ -1,6 +1,6 @@
 - heading: "Who We Are"
   lead: 'The people who get things done at BMLP'
-  menu: "Who"
+  menu: "Who we are"
   url: "who-we-are"
 
 - heading: "What we do"
@@ -13,10 +13,10 @@
   menu: "Resources"
   url: "resources"
 
-- heading: "Support"
+- heading: "Support Us"
   lead: "Tools and Resources for Legal Observers, Jail Support Volunteers & Trainers"
-  menu: "Resources"
-  url: "resources"
+  menu: "Support Us"
+  url: "support-us"
 
 - heading: "Get in Touch"
   lead: "Connect with us to help strengthen your local movement"
