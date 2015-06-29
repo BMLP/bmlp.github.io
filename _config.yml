@@ -86,14 +86,14 @@ prose:
           label: "Resource Format"
           element: "select"
           options:
-            - name: PDF
-              option: file-pdf-o
-            - name: Word Document
-              option: file-word-o
-            - name: Presentation
-              option: file-powerpoint-o
-            - name: Image
-              option: file-image-o
+            - name: "PDF"
+              option: "file-pdf-o"
+            - name: "Word Document"
+              option: "file-word-o"
+            - name: "Presentation"
+              option: "file-powerpoint-o"
+            - name: "Image"
+              option: "file-image-o"
 
     _posts/teammembers:
       - name: "category"
