@@ -25,16 +25,20 @@ prose:
     _posts:
       - name: "title"
         field:
+          element: "hidden"
+          value: "title"
+      - name: "title"
+        field:
           element: "text"
           label: "Title"
           value: ""
-      - name: "permalink"
-        field:
-          element: "text"
-          label: "Permalink"
-          value: ""
 
     _posts/whatwedo:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
       - name: "category"
         field:
           element: "hidden"
@@ -54,7 +58,6 @@ prose:
           element: "text"
           label: "Title"
           value: ""
-          placeholder: ""
       - name: "category"
         field:
           element: "hidden"
@@ -96,6 +99,11 @@ prose:
               option: "file-image-o"
 
     _posts/teammembers:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
       - name: "category"
         field:
           element: "hidden"
@@ -110,6 +118,11 @@ prose:
           value: "default"
 
     _posts/allies:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
       - name: "category"
         field:
           element: "hidden"
