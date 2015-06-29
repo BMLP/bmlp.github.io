@@ -28,6 +28,7 @@ prose:
           element: "text"
           label: "Title"
           value: ""
+          placeholder: ""
 
     _posts/whatwedo:
       - name: "category"
