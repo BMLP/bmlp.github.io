@@ -6,15 +6,23 @@
       <p class="lead">{{section.lead}}</p>
       <hr>
     </div>
-    {% for resource in site.data.resources %}
+    {% for resource in site.categeories.resources %}
     <div class="row">
       <div class="col-md-4">
         <div class="boxed-content left-aligned">
-          <i class="fa fa-{{resource-icon}} text-body-color"></i>
+          <span class="fa fa-{{resource.fileformat}} text-body-color"></span>
           <h2 class="boxed-content-title">{{resource.title}}</h2>
           <p>{{resource.content}}</p>
-          <a href="{{site.baseurl}}/{{site.prose.media}}/{{resource.link}}" target="_blank" download class="btn btn-primary">
-            <span class="fa fa-download"></span> Download</a>
+          {% if resource.fileorlink == 'file'%}
+          <a href="{{site.baseurl}}/{{site.prose.media}}/{{resource.path}}" target="_blank" download class="btn btn-primary">
+            <span class="fa fa-download"></span> Download
+          </a>
+          {% elsif resource.fileorlink == 'link' %}
+          <a href="{{resource.link}}" target="_blank" class="btn btn-primary">
+            <span class="fa fa-link"></span> Link
+          </a>
+          {% endif %}
+
         </div>
       </div>
       {% endfor %}
