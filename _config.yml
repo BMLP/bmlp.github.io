@@ -29,6 +29,10 @@ prose:
           label: "Title"
           value: ""
           placeholder: ""
+      - name: "permalink"
+          element: "text"
+          label: "Permalink"
+          value: ""
 
     _posts/whatwedo:
       - name: "category"
