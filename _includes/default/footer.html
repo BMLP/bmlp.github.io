@@ -20,28 +20,23 @@
           </div>
           <div class="col-md-4">
             <!-- COLUMN 2 -->
-            <h3 class="footer-heading">USEFUL LINKS</h3>
+
             <div class="row margin-bottom-30px">
               <div class="col-xs-6">
+              <h3 class="footer-heading">Site Navigation</h3>
                 <ul class="list-unstyled footer-nav">
                   <li>
-                    <a href="#">About Us</a>
-                  </li>
-                  <li>
-                    <a href="#">News</a>
-                  </li>
-                  <li>
-                    <a href="#">Community</a>
-                  </li>
-                  <li>
-                    <a href="#">Career</a>
-                  </li>
-                  <li>
-                    <a href="#">Blog</a>
-                  </li>
+                    <a href="#top">Home</a>
+                </li>
+                {% for section in site.data.sections %}
+                <li>
+                  <a href="#{{section.url}}">{{section.menu}}</a>
+                </li>
+              {% endfor %}
                 </ul>
               </div>
               <div class="col-xs-6">
+              <h3 class="footer-heading">Useful Links</h3>
                 <ul class="list-unstyled footer-nav">
                   <li>
                     <a href="#">Press Kit</a>
@@ -68,7 +63,7 @@
             <div class="newsletter">
               <h3 class="footer-heading">NEWSLETTER</h3>
               <p>Get the latest update from us by subscribing to our newsletter.</p>
-              <form class="newsletter-form" method="POST" action="../php/mailchimp.html">
+              <form  data-parsley-validate class="newsletter-form" method="POST" >
                 <div class="input-group input-group-lg">
                   <input type="email" class="form-control" name="email" placeholder="youremail@domain.com">
                   <span class="input-group-btn">
@@ -83,13 +78,10 @@
               <h3 class="footer-heading">GET CONNECTED</h3>
               <ul class="list-inline social-icons">
                 <li>
-                  <a href="#" class="facebook-bg"><i class="fa fa-facebook"></i></a>
+                  <a href="{{site.data.config.facebook}}" class="facebook-bg"><i class="fa fa-facebook"></i></a>
                 </li>
                 <li>
-                  <a href="#" class="twitter-bg"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a href="#" class="googleplus-bg"><i class="fa fa-google-plus"></i></a>
+                  <a href="{{site.data.config.twitter}}" class="twitter-bg"><i class="fa fa-twitter"></i></a>
                 </li>
                 <li>
                   <a href="#" class="rss-bg"><i class="fa fa-rss"></i></a>

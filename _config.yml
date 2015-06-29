@@ -19,27 +19,60 @@ prose:
     - 404.html
   metadata:
     _posts:
-      - name: "layout"
+      - name: "title"
         field:
           element: "hidden"
-          value: "blog"
-      - name: "tags"
-        field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
-          options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
-    _posts/static:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "page"
-      - name: "permalink"
+          value: "title"
+      - name: "title"
         field:
           element: "text"
-          label: "Permalink"
+          label: "Title"
           value: ""
+
+    _posts/whatwedo:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "whatwedo"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "default"
+
+    _posts/resources:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "resources"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "default"
+
+    _posts/teammembers:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "teammembers"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "default"
+
+    _posts/allies:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "allies"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "default"
+      - name: "website"
+        field:
+          element: "text"
+      - name: "logo"
+        field:
+          element: "text"
+          help: "Provide a small logo image"
+

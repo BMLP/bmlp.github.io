@@ -32,11 +32,11 @@ a {
 	}
 }
 
-a, 
-a:focus, 
-a:hover, 
-a:active, 
-button, 
+a,
+a:focus,
+a:hover,
+a:active,
+button,
 button:hover {
 	outline: 0 !important;
 }
@@ -53,7 +53,9 @@ hr {
 		background-color: $footer-bg-color;
 		font-weight: 300;
 		color: #eaeaea;
-
+		h1,h2,h3,h4,h5,h6 {
+			color: #eaeaea;
+		}
 		a {
 			color: #fff;
 
