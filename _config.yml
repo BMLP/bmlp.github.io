@@ -87,13 +87,13 @@ prose:
           element: "select"
           options:
             - name: PDF
-              option: pdf
+              option: file-pdf-o
             - name: Word Document
-              option: word-document
+              option: file-word-o
             - name: Presentation
-              option: presentation
+              option: file-powerpoint-o
             - name: Image
-              option: image
+              option: file-image-o
 
     _posts/teammembers:
       - name: "category"

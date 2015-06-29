@@ -15,7 +15,7 @@ a {
 	background-color: $accent-color;
 	border-color: darken($accent-color, 3%);
 
-	&:hover, &:focus, &.focus, &:active, &.active, 
+	&:hover, &:focus, &.focus, &:active, &.active,
 	.open > .dropdown-toggle.btn-primary {
 		background-color: darken($accent-color, 3%);
 		border-color: darken($accent-color, 8%);
@@ -82,11 +82,11 @@ a {
 }
 
 .boxed-content {
-	> i {
+	> span.fa {
 		color: $accent-color;
 	}
 
-	&.left-boxed-icon i {
+	&.left-boxed-icon span.fa {
 		background: $accent-color;
 	}
 }
@@ -327,12 +327,12 @@ ul.sidebar-nav {
 /* switch checkbox and radio */
 .switch-input {
 	input {
-		&:checked + i {
+		&:checked + span.fa {
 			border-color: $accent-color;
 		}
 	}
 
-	i {
+	span.fa {
 		&:before {
 			background-color: $accent-color;
 		}
@@ -393,7 +393,7 @@ ul.sidebar-nav {
 }
 
 .testimonial-fancy {
-	i {
+	span.fa {
 		color: $accent-color;
 	}
 }
