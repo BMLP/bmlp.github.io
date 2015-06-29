@@ -70,9 +70,11 @@ prose:
           value: "default"
       - name: "website"
         field:
+          label: "Website URL"
           element: "text"
+          help: "Full website URL, such as http://www.anorganization.com"
       - name: "logo"
         field:
           element: "text"
-          help: "Provide a small logo image"
+          help: "Provide a small logo image, such as nlg-logo.png"
 
