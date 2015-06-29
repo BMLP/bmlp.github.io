@@ -39,6 +39,10 @@ prose:
         field:
           element: "hidden"
           value: "default"
+      - name: "icon"
+        field:
+          element: "text"
+          value: "flag"
 
     _posts/resources:
       - name: "title"
