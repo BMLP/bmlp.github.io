@@ -3,8 +3,8 @@ host: '127.0.0.1'
 
 prose:
   rooturl: ''
-  siteurl: 'http://bmlp.github.io'
-  relativeLinks: 'http://bmlp.github.io/links.jsonp'
+  siteurl: 'https://bmlp.github.io'
+  relativeLinks: 'https://bmlp.github.io/links.jsonp'
   media: 'media'
   ignore:
     - index.html
