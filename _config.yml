@@ -37,6 +37,12 @@ prose:
           value: "default"
 
     _posts/resources:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+          placeholder: ""
       - name: "category"
         field:
           element: "hidden"
