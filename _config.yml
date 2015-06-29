@@ -29,6 +29,7 @@ prose:
           label: "Title"
           value: ""
       - name: "permalink"
+        field:
           element: "text"
           label: "Permalink"
           value: ""
@@ -107,8 +108,6 @@ prose:
         field:
           element: "hidden"
           value: "default"
-
-
 
     _posts/allies:
       - name: "category"
