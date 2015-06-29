@@ -1,0 +1,24 @@
+<!-- SERVICES -->
+<section id="{{section.url}}">
+  <div class="container">
+    <div class="heading-center">
+      <h2 class="section-heading">{{section.heading}}</h2>
+      <p class="lead">{{section.lead}}</p>
+      <hr>
+    </div>
+    <!-- BOXED CONTENT -->
+    <div class="row">
+    {% for post in site.category.what-we-do %}
+      <div class="col-md-4">
+        <div class="boxed-content left-aligned left-boxed-icon">
+          <span class="fa fa-{{post.icon}}"></span>
+          <h2 class="boxed-content-title">{{post.title}}</h2>
+          <p>{{post.content}}</p>
+        </div>
+      </div>
+    {% endfor %}
+    </div>
+    <!-- END BOXED CONTENT -->
+  </div>
+</section>
+<!-- END SERVICES -->
