@@ -154,7 +154,7 @@
 		background-color: transparent;
 	}
 
-	.dropdown-toggle i {
+	.dropdown-toggle span.fa {
 		margin-left: 3px;
 		color: #b8b8b8;
 	}
@@ -200,7 +200,7 @@
 			color: #fff;
 		}
 
-		i {
+		span.fa {
 			position: absolute;
 			right: 11px;
 			top: 11px;
@@ -262,7 +262,7 @@
 			padding-bottom: 8px;
 		}
 
-		li > a > i {
+		li > a > span.fa {
 			position: absolute;
 			right: 15px;
 			top: 9px;
@@ -304,7 +304,7 @@
 			padding-left: 12px;
 		}
 
-		a > i {
+		a > span.fa {
 			display: none;
 		}
 	}
@@ -329,7 +329,7 @@
 				background-color: inherit;
 			}
 
-			i {
+			span.fa {
 				display: none;
 			}
 		}

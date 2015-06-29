@@ -76,11 +76,11 @@ a:hover, a:focus {
 }
 
 /* line 85, ../../../sass/skins/_skin-styles.scss */
-.boxed-content > i {
+.boxed-content > span.fa {
   color: #FF4500;
 }
 /* line 89, ../../../sass/skins/_skin-styles.scss */
-.boxed-content.left-boxed-icon i {
+.boxed-content.left-boxed-icon span.fa {
   background: #FF4500;
 }
 
@@ -280,11 +280,11 @@ ul.sidebar-nav li.has-submenu.active li.active > a {
 
 /* switch checkbox and radio */
 /* line 330, ../../../sass/skins/_skin-styles.scss */
-.switch-input input:checked + i {
+.switch-input input:checked + span.fa {
   border-color: #FF4500;
 }
 /* line 336, ../../../sass/skins/_skin-styles.scss */
-.switch-input i:before {
+.switch-input span.fa:before {
   background-color: #FF4500;
 }
 
@@ -333,6 +333,6 @@ ul.sidebar-nav li.has-submenu.active li.active > a {
 }
 
 /* line 396, ../../../sass/skins/_skin-styles.scss */
-.testimonial-fancy i {
+.testimonial-fancy span.fa {
   color: #FF4500;
 }

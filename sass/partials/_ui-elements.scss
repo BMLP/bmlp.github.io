@@ -717,7 +717,7 @@ ul.sidebar-nav {
 			}
 		}
 
-		&:checked + span i:after {
+		&:checked + span span.fa:after {
 			@include border-radius(50%);
 
 			display: block;

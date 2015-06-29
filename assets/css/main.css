@@ -3821,7 +3821,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   background-color: transparent;
 }
 /* line 157, ../../sass/partials/_navbar.scss */
-.navbar-default .navbar-nav .dropdown-toggle i {
+.navbar-default .navbar-nav .dropdown-toggle span.fa {
   margin-left: 3px;
   color: #b8b8b8;
 }
@@ -3870,7 +3870,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   color: #fff;
 }
 /* line 203, ../../sass/partials/_navbar.scss */
-.navbar-nav .dropdown-menu > li > a i {
+.navbar-nav .dropdown-menu > li > a span.fa {
   position: absolute;
   right: 11px;
   top: 11px;
@@ -3937,7 +3937,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     padding-bottom: 8px;
   }
   /* line 265, ../../sass/partials/_navbar.scss */
-  .navbar-default .navbar-nav li > a > i {
+  .navbar-default .navbar-nav li > a > span.fa {
     position: absolute;
     right: 15px;
     top: 9px;
@@ -3978,7 +3978,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     padding-left: 12px;
   }
   /* line 307, ../../sass/partials/_navbar.scss */
-  .dropdown-menu .dropdown a > i {
+  .dropdown-menu .dropdown a > span.fa {
     display: none;
   }
 }
@@ -4004,7 +4004,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     background-color: inherit;
   }
   /* line 332, ../../sass/partials/_navbar.scss */
-  .navbar-default .navbar-nav .dropdown-menu .dropdown i {
+  .navbar-default .navbar-nav .dropdown-menu .dropdown span.fa {
     display: none;
   }
 }
@@ -4026,67 +4026,72 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 /* ----------------------------------------------------- */
-/* HERO UNIT 
+/* HERO UNIT
 /* Types: slider with animated object, default slider
 /* ----------------------------------------------------- */
 /* line 6, ../../sass/partials/_hero-unit.scss */
 .hero-unit-animated {
   padding: 100px 0;
   color: #fff;
-  background-image: url('/assets/img/hero-unit-bg.png?1435531226');
+  display: inline-table;
+  width: 100%;
+  height: 760px;
+  background-image: url('/assets/img/riseup.jpg?1435563607');
   background-repeat: no-repeat;
   background-position: center -75px;
+  background-width: 100%;
+  background-size: cover;
 }
-/* line 16, ../../sass/partials/_hero-unit.scss */
+/* line 21, ../../sass/partials/_hero-unit.scss */
 .hero-unit-animated .hero-heading {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 42px;
   font-weight: 300;
   color: #fff;
 }
-/* line 23, ../../sass/partials/_hero-unit.scss */
+/* line 28, ../../sass/partials/_hero-unit.scss */
 .hero-unit-animated .lead {
   font-size: 24px;
 }
-/* line 27, ../../sass/partials/_hero-unit.scss */
+/* line 32, ../../sass/partials/_hero-unit.scss */
 .hero-unit-animated .hero-button {
   padding: 10px 40px;
   margin-top: 24px;
   background-color: #406da4;
   border: none;
 }
-/* line 33, ../../sass/partials/_hero-unit.scss */
+/* line 38, ../../sass/partials/_hero-unit.scss */
 .hero-unit-animated .hero-button:hover, .hero-unit-animated .hero-button:focus {
   background-color: #3c6699;
 }
 @media screen and (max-width: 1200px) {
-  /* line 39, ../../sass/partials/_hero-unit.scss */
+  /* line 44, ../../sass/partials/_hero-unit.scss */
   .hero-unit-animated .hero-left {
     max-width: 100%;
     float: none !important;
     text-align: center;
   }
-  /* line 45, ../../sass/partials/_hero-unit.scss */
+  /* line 50, ../../sass/partials/_hero-unit.scss */
   .hero-unit-animated .hero-heading {
     font-size: 36px;
   }
-  /* line 49, ../../sass/partials/_hero-unit.scss */
+  /* line 54, ../../sass/partials/_hero-unit.scss */
   .hero-unit-animated .lead {
     font-size: 18px;
   }
-  /* line 53, ../../sass/partials/_hero-unit.scss */
+  /* line 58, ../../sass/partials/_hero-unit.scss */
   .hero-unit-animated .hero-right {
     display: none;
   }
 }
 
-/* line 59, ../../sass/partials/_hero-unit.scss */
+/* line 64, ../../sass/partials/_hero-unit.scss */
 .hero-left {
   max-width: 50%;
 }
 
 /* carousel */
-/* line 64, ../../sass/partials/_hero-unit.scss */
+/* line 69, ../../sass/partials/_hero-unit.scss */
 .carousel-control {
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -4100,145 +4105,145 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   height: 45px;
   background: #777;
 }
-/* line 75, ../../sass/partials/_hero-unit.scss */
+/* line 80, ../../sass/partials/_hero-unit.scss */
 .carousel-control:hover {
   background: #6a6a6a;
 }
-/* line 79, ../../sass/partials/_hero-unit.scss */
+/* line 84, ../../sass/partials/_hero-unit.scss */
 .carousel-control.left, .carousel-control.right {
   background-image: none;
 }
-/* line 83, ../../sass/partials/_hero-unit.scss */
+/* line 88, ../../sass/partials/_hero-unit.scss */
 .carousel-control .fa {
   line-height: 45px;
 }
 
-/* line 88, ../../sass/partials/_hero-unit.scss */
+/* line 93, ../../sass/partials/_hero-unit.scss */
 .carousel-indicators {
   bottom: -90px;
 }
-/* line 91, ../../sass/partials/_hero-unit.scss */
+/* line 96, ../../sass/partials/_hero-unit.scss */
 .carousel-indicators > li {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
   background-color: #fff;
 }
-/* line 96, ../../sass/partials/_hero-unit.scss */
+/* line 101, ../../sass/partials/_hero-unit.scss */
 .carousel-indicators > li.active {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
 }
 
 /* hero unit slider */
-/* line 103, ../../sass/partials/_hero-unit.scss */
+/* line 108, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider {
   /* hero unit with slick carousel */
 }
-/* line 104, ../../sass/partials/_hero-unit.scss */
+/* line 109, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .carousel-inner > .item {
   overflow: hidden;
 }
-/* line 108, ../../sass/partials/_hero-unit.scss */
+/* line 113, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .carousel-caption {
   bottom: inherit;
   top: 8em;
   text-shadow: none;
 }
-/* line 114, ../../sass/partials/_hero-unit.scss */
+/* line 119, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .hero-heading {
   font-size: 50px;
   color: #fff;
 }
-/* line 119, ../../sass/partials/_hero-unit.scss */
+/* line 124, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .hero-button {
   border: 3px solid #fff;
   color: #fff;
 }
-/* line 123, ../../sass/partials/_hero-unit.scss */
+/* line 128, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .hero-button:hover, .hero-unit-slider .hero-button:focus {
   background: #406da4;
   color: #fff;
 }
-/* line 129, ../../sass/partials/_hero-unit.scss */
+/* line 134, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .carousel-indicators {
   bottom: 0;
 }
-/* line 133, ../../sass/partials/_hero-unit.scss */
+/* line 138, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .carousel-control {
   background: rgba(0, 0, 0, 0.2);
 }
-/* line 136, ../../sass/partials/_hero-unit.scss */
+/* line 141, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .carousel-control:hover {
   background: rgba(0, 0, 0, 0.3);
 }
 @media screen and (min-width: 1200px) and (max-width: 1440px) {
-  /* line 142, ../../sass/partials/_hero-unit.scss */
+  /* line 147, ../../sass/partials/_hero-unit.scss */
   .hero-unit-slider .carousel-caption {
     top: 10em;
   }
 }
 @media screen and (max-width: 1200px) {
-  /* line 148, ../../sass/partials/_hero-unit.scss */
+  /* line 153, ../../sass/partials/_hero-unit.scss */
   .hero-unit-slider .carousel-inner > .item > img {
     max-width: inherit;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 154, ../../sass/partials/_hero-unit.scss */
+  /* line 159, ../../sass/partials/_hero-unit.scss */
   .hero-unit-slider .carousel-caption {
     top: 11em;
   }
-  /* line 158, ../../sass/partials/_hero-unit.scss */
+  /* line 163, ../../sass/partials/_hero-unit.scss */
   .hero-unit-slider .hero-heading {
     font-size: 28px;
   }
-  /* line 162, ../../sass/partials/_hero-unit.scss */
+  /* line 167, ../../sass/partials/_hero-unit.scss */
   .hero-unit-slider .lead {
     font-size: 16px;
   }
-  /* line 166, ../../sass/partials/_hero-unit.scss */
+  /* line 171, ../../sass/partials/_hero-unit.scss */
   .hero-unit-slider .hero-button {
     font-size: 13px;
   }
 }
-/* line 173, ../../sass/partials/_hero-unit.scss */
+/* line 178, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .slick-carousel .slick-slider {
   margin-bottom: 0;
 }
-/* line 177, ../../sass/partials/_hero-unit.scss */
+/* line 182, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .slick-carousel .slick-prev, .hero-unit-slider .slick-carousel .slick-next {
   top: 50%;
   margin-top: -22.5px;
   width: 45px;
   height: 45px;
 }
-/* line 183, ../../sass/partials/_hero-unit.scss */
+/* line 188, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .slick-carousel .slick-prev:hover, .hero-unit-slider .slick-carousel .slick-prev:focus, .hero-unit-slider .slick-carousel .slick-next:hover, .hero-unit-slider .slick-carousel .slick-next:focus {
   background: rgba(0, 0, 0, 0.3);
 }
-/* line 188, ../../sass/partials/_hero-unit.scss */
+/* line 193, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .slick-carousel .slick-prev {
   left: 0;
 }
-/* line 192, ../../sass/partials/_hero-unit.scss */
+/* line 197, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .slick-carousel .slick-dots {
   position: absolute;
   bottom: 20px;
 }
-/* line 196, ../../sass/partials/_hero-unit.scss */
+/* line 201, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .slick-carousel .slick-dots button {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
   background-color: #fff;
 }
-/* line 202, ../../sass/partials/_hero-unit.scss */
+/* line 207, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .slick-carousel .slick-dots .slick-active button {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
 }
 
 /* ----------------------------------------------------- */
-/* BOOTSTRAP UI ELEMENTS 
+/* BOOTSTRAP UI ELEMENTS
 /* All styles that override bootstrap elements
 /* ----------------------------------------------------- */
 /* button */
@@ -4346,8 +4351,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 /* line 96, ../../sass/partials/_ui-bootstrap-elements.scss */
-.nav-tabs.tabs-iconized > li i,
-.nav-pills.tabs-iconized > li i {
+.nav-tabs.tabs-iconized > li span.fa,
+.nav-pills.tabs-iconized > li span.fa {
   position: relative;
   margin-right: 3px;
   top: 3px;
@@ -4471,11 +4476,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 /* accordion, collapsible content */
 /* line 208, ../../sass/partials/_ui-bootstrap-elements.scss */
-.panel-group .panel .panel-title > a i {
+.panel-group .panel .panel-title > a span.fa {
   font-size: 18px;
 }
 /* line 211, ../../sass/partials/_ui-bootstrap-elements.scss */
-.panel-group .panel .panel-title > a i.icon-collapsed {
+.panel-group .panel .panel-title > a span.fa.icon-collapsed {
   display: none;
 }
 /* line 217, ../../sass/partials/_ui-bootstrap-elements.scss */
@@ -4595,7 +4600,7 @@ div[class*="col-"] > .form-group {
 }
 
 /* ----------------------------------------------------- */
-/* UI ELEMENTS 
+/* UI ELEMENTS
 /* All styles related with custom UI elements, overrides
 /* plugin styles
 /* ----------------------------------------------------- */
@@ -4713,7 +4718,7 @@ div[class*="col-"] > .form-group {
   margin-bottom: 35px;
 }
 /* line 107, ../../sass/partials/_ui-elements.scss */
-.boxed-content > i {
+.boxed-content > span.fa {
   font-size: 8em;
   color: #406da4;
 }
@@ -4733,13 +4738,13 @@ div[class*="col-"] > .form-group {
   font-weight: normal;
 }
 /* line 126, ../../sass/partials/_ui-elements.scss */
-.boxed-content.left-aligned i {
+.boxed-content.left-aligned span.fa {
   float: left;
   margin-right: 10px;
   font-size: 2em;
 }
 /* line 134, ../../sass/partials/_ui-elements.scss */
-.boxed-content.left-boxed-icon i {
+.boxed-content.left-boxed-icon span.fa {
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   border-radius: 2px;
@@ -4798,7 +4803,7 @@ div[class*="col-"] > .form-group {
 }
 
 /* line 191, ../../sass/partials/_ui-elements.scss */
-.testimonial-fancy i {
+.testimonial-fancy span.fa {
   position: absolute;
   top: -12px;
   font-size: 3em;
@@ -5013,7 +5018,7 @@ ul.social-icons li a.rss-bg:hover, ul.social-icons li a.rss-bg:focus {
   background-color: #e65c00;
 }
 /* line 407, ../../sass/partials/_ui-elements.scss */
-ul.social-icons li a i {
+ul.social-icons li a span.fa {
   position: relative;
   top: 8px;
 }
@@ -5070,11 +5075,11 @@ ul.social-icons li a i {
   background-color: #396192;
 }
 /* line 454, ../../sass/partials/_ui-elements.scss */
-.newsletter-form .input-group-lg > .input-group-btn > .btn i {
+.newsletter-form .input-group-lg > .input-group-btn > .btn span.fa {
   display: none;
 }
 /* line 459, ../../sass/partials/_ui-elements.scss */
-.newsletter-form .input-group-lg > .input-group-btn > .btn.loading i {
+.newsletter-form .input-group-lg > .input-group-btn > .btn.loading span.fa {
   display: inline;
 }
 /* line 463, ../../sass/partials/_ui-elements.scss */
@@ -5333,7 +5338,7 @@ ul.sidebar-nav ul.submenu li:first-child a {
   font-size: 13px;
 }
 /* line 706, ../../sass/partials/_ui-elements.scss */
-.fancy-radio input[type="radio"] + span i {
+.fancy-radio input[type="radio"] + span span.fa {
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
@@ -5351,7 +5356,7 @@ ul.sidebar-nav ul.submenu li:first-child a {
   margin-right: 8px;
 }
 /* line 720, ../../sass/partials/_ui-elements.scss */
-.fancy-radio input[type="radio"]:checked + span i:after {
+.fancy-radio input[type="radio"]:checked + span span.fa:after {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
@@ -5381,21 +5386,21 @@ ul.sidebar-nav ul.submenu li:first-child a {
   left: -9999px;
 }
 /* line 748, ../../sass/partials/_ui-elements.scss */
-.switch-input input:checked + i {
+.switch-input input:checked + span.fa {
   border-color: #406da4;
 }
 /* line 751, ../../sass/partials/_ui-elements.scss */
-.switch-input input:checked + i:before {
+.switch-input input:checked + span.fa:before {
   right: 33px;
 }
 /* line 755, ../../sass/partials/_ui-elements.scss */
-.switch-input input:checked + i:after {
+.switch-input input:checked + span.fa:after {
   content: attr(data-swon-text);
   text-align: right;
   color: #777;
 }
 /* line 763, ../../sass/partials/_ui-elements.scss */
-.switch-input i {
+.switch-input span.fa {
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
   border-radius: 20px;
@@ -5413,7 +5418,7 @@ ul.sidebar-nav ul.submenu li:first-child a {
   font-style: normal;
 }
 /* line 779, ../../sass/partials/_ui-elements.scss */
-.switch-input i:before {
+.switch-input span.fa:before {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
@@ -5439,7 +5444,7 @@ ul.sidebar-nav ul.submenu li:first-child a {
   background-color: #406da4;
 }
 /* line 795, ../../sass/partials/_ui-elements.scss */
-.switch-input i:after {
+.switch-input span.fa:after {
   content: attr(data-swoff-text);
   position: absolute;
   top: 2px;
@@ -5540,7 +5545,7 @@ ul.sidebar-nav ul.submenu li:first-child a {
   font-size: 0.5em;
 }
 /* line 898, ../../sass/partials/_ui-elements.scss */
-.number-info.horizontal i {
+.number-info.horizontal span.fa {
   font-size: 30px;
   line-height: 1.2;
 }
@@ -5563,7 +5568,7 @@ ul.sidebar-nav ul.submenu li:first-child a {
     text-align: center;
   }
   /* line 919, ../../sass/partials/_ui-elements.scss */
-  .number-info.horizontal i {
+  .number-info.horizontal span.fa {
     float: none !important;
   }
   /* line 923, ../../sass/partials/_ui-elements.scss */
@@ -5578,7 +5583,7 @@ ul.sidebar-nav ul.submenu li:first-child a {
 }
 @media screen and (max-width: 480px) {
   /* line 931, ../../sass/partials/_ui-elements.scss */
-  .number-info.horizontal i {
+  .number-info.horizontal span.fa {
     float: none !important;
     display: block;
     margin-bottom: 10px;
@@ -5598,7 +5603,7 @@ ul.sidebar-nav ul.submenu li:first-child a {
   *display: inline;
 }
 /* line 947, ../../sass/partials/_ui-elements.scss */
-.number-info.vertical i {
+.number-info.vertical span.fa {
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
@@ -7128,7 +7133,7 @@ ul.nav-categories > li > a:hover {
   margin-bottom: 20px;
 }
 /* line 35, ../../sass/partials/_helpers.scss */
-.list-icons-demo li i {
+.list-icons-demo li span.fa {
   font-size: 24px;
 }
 
