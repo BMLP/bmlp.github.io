@@ -10,8 +10,8 @@
     <div class="row">
     {% for post in site.categories.whatwedo %}
       <div class="col-md-4">
-        <div class="boxed-content left-aligned left-boxed-icon">
-          <span class="fa fa-{{post.icon}}"></span>
+        <div class="boxed-content left-aligned">
+          <i class="fa fa-{{post.icon}} text-body-color"></i>
           <h2 class="boxed-content-title">{{post.title}}</h2>
           <p>{{post.content}}</p>
         </div>

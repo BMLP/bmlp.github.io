@@ -4031,7 +4031,7 @@ div[class*="col-"] > .form-group {
 }
 
 /* ----------------------------------------------------- */
-/* UI ELEMENTS 
+/* UI ELEMENTS
 /* All styles related with custom UI elements, overrides
 /* plugin styles
 /* ----------------------------------------------------- */
@@ -4169,13 +4169,13 @@ div[class*="col-"] > .form-group {
   font-weight: normal;
 }
 /* line 126, ../../sass/partials/_ui-elements.scss */
-.boxed-content.left-aligned i {
+.boxed-content.left-aligned span.fa {
   float: left;
   margin-right: 10px;
   font-size: 2em;
 }
 /* line 134, ../../sass/partials/_ui-elements.scss */
-.boxed-content.left-boxed-icon i {
+.boxed-content.left-boxed-icon span.fa {
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   border-radius: 2px;

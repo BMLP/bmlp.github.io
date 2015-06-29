@@ -1,5 +1,5 @@
 /* ----------------------------------------------------- */
-/* UI ELEMENTS 
+/* UI ELEMENTS
 /* All styles related with custom UI elements, overrides
 /* plugin styles
 /* ----------------------------------------------------- */
@@ -61,7 +61,7 @@
 
 .slick-prev {
 	right: 47px;
-	
+
 	&:before {
 		content: '\f104';
 	}
@@ -123,7 +123,7 @@
 			font-weight: normal;
 		}
 
-		i {
+		span.fa {
 			float: left;
 			margin-right: 10px;
 			font-size: 2em;
@@ -131,7 +131,7 @@
 	}
 
 	&.left-boxed-icon {
-		i {
+		span.fa {
 			@include border-radius(2px);
 
 			padding: 10px;
@@ -154,7 +154,7 @@
 .testimonial-body {
 	position: relative;
 	margin: 0 auto;
-	
+
 	p {
 		font-size: 1.5em;
 		font-style: italic;
@@ -307,13 +307,13 @@
 .list-client-logo {
 	text-align: justify;
 	margin-bottom: 0;
-	
+
 	&:after {
 		content: '';
 		display: inline-block;
 		width: 100%;
 	}
-	
+
 	&:before {
 		content: '';
 		display: block;
@@ -356,7 +356,7 @@
 			width: 100%;
 			float: none !important;
 		}
-		
+
 		.btn {
 			margin-top: 10px;
 		}
@@ -385,7 +385,7 @@ ul.social-icons {
 					background-color: darken($facebook-color, 5%);
 				}
 			}
-			
+
 			&.twitter-bg {
 				&:hover, &:focus {
 					background-color: darken($twitter-color, 5%);
@@ -404,7 +404,7 @@ ul.social-icons {
 				}
 			}
 
-			i {
+			span.fa {
 				position: relative;
 				top: 8px;
 			}
@@ -561,8 +561,8 @@ ul.sidebar-nav {
 		}
 	}
 
-	.list-group-item.active, 
-	.list-group-item.active:hover, 
+	.list-group-item.active,
+	.list-group-item.active:hover,
 	.list-group-item.active:focus {
 		background-color: #fff;
 		border-color: #ddd;
@@ -655,7 +655,7 @@ ul.sidebar-nav {
 
 	input[type="checkbox"] {
 		display: none;
-		
+
 		+ span {
 			@include inline-block;
 
@@ -695,7 +695,7 @@ ul.sidebar-nav {
 
 	input[type="radio"] {
 		display: none;
-		
+
 		+ span {
 			display: block;
 			cursor: pointer;
@@ -728,7 +728,7 @@ ul.sidebar-nav {
 			width: 10px;
 			height: 10px;
 			background-color: $accent-color;
-		} 
+		}
 	}
 }
 
@@ -745,7 +745,7 @@ ul.sidebar-nav {
 		position: absolute;
 		left: -9999px;
 
-		&:checked + i {
+		&:checked + span.fa {
 			border-color: $accent-color;
 
 			&:before {
@@ -760,7 +760,7 @@ ul.sidebar-nav {
 		}
 	}
 
-	i {
+	span.fa {
 		@include border-radius(20px);
 
 		content: '';
@@ -895,7 +895,7 @@ ul.sidebar-nav {
 	}
 
 	&.horizontal {
-		i {
+		span.fa {
 			font-size: 30px;
 			line-height: 1.2;
 		}
@@ -914,9 +914,9 @@ ul.sidebar-nav {
 		@include max-screen($break-small) {
 			margin-top: 30px;
 			margin-bottom: 30px;
-			text-align: center; 
+			text-align: center;
 
-			i {
+			span.fa {
 				float: none !important;
 			}
 
@@ -928,7 +928,7 @@ ul.sidebar-nav {
 		}
 
 		@include max-screen($break-xsmall) {
-			i {
+			span.fa {
 				float: none !important;
 				display: block;
 				margin-bottom: 10px;
@@ -944,7 +944,7 @@ ul.sidebar-nav {
 	&.vertical {
 		@include inline-block;
 
-		i {
+		span.fa {
 			@include inline-block;
 
 			width: 60px;
@@ -1013,7 +1013,7 @@ ul.sidebar-nav {
 /* parsley erorr list */
 .parsley-errors-list {
 	@include inline-block-list;
-	
+
 	li {
 		color: #D9534F;
 		font-size: 0.9em;
@@ -1094,7 +1094,7 @@ ul.sidebar-nav {
 			margin-bottom: 10px;
 		}
 
-		
+
 
 		.right {
 			padding-left: 0;
