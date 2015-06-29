@@ -5,7 +5,7 @@ prose:
   rooturl: ''
   siteurl: 'https://bmlp.github.io'
   relativeLinks: 'https://bmlp.github.io/links.jsonp'
-  media: 'media'
+  media: 'assets/img'
   ignore:
     - index.html
     - _config.yml
