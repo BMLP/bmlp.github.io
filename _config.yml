@@ -48,6 +48,37 @@ prose:
         field:
           element: "hidden"
           value: "default"
+      - name: "fileorlink"
+        field:
+          label: "File or Link?"
+          element: "select"
+          help: "Indicate whether this resource is a file or a link"
+          options:
+            - file
+            - link
+      - name: "link"
+        field:
+          label: "Resource Link"
+          element: "text"
+          help: "If the resource is a link, provide the full url here"
+      - name: "file"
+        field:
+          label: "File Path"
+          element: "text"
+          help: "The path to the uploaded file, such as file.pdf"
+      - name: "fileformat"
+        field:
+          label: "Resource Format"
+          element: "select"
+          options:
+            - name: PDF
+              option: pdf
+            - name: Word Document
+              option: word-document
+            - name: Presentation
+              option: presentation
+            - name: Image
+              option: image
 
     _posts/teammembers:
       - name: "category"
@@ -58,6 +89,12 @@ prose:
         field:
           element: "hidden"
           value: "default"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "default"
+
+
 
     _posts/allies:
       - name: "category"
@@ -75,6 +112,7 @@ prose:
           help: "Full website URL, such as http://www.anorganization.com"
       - name: "logo"
         field:
+          label: "Logo Image"
           element: "text"
           help: "Provide a small logo image, such as nlg-logo.png"
 
