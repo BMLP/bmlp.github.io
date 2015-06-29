@@ -104,7 +104,7 @@
 	text-align: center;
 	margin-bottom: 35px;
 
-	> i {
+	> span.fa {
 		font-size: 8em;
 		color: $accent-color;
 	}
@@ -188,7 +188,7 @@
 }
 
 .testimonial-fancy {
-	i {
+	span.fa {
 		position: absolute;
 		top: -12px;
 		font-size: 3em;
@@ -451,12 +451,12 @@ ul.social-icons {
 				background-color: darken($accent-color, 5%);
 			}
 
-			i {
+			span.fa {
 				display: none;
 			}
 
 			&.loading {
-				i {
+				span.fa {
 					display: inline;
 				}
 
@@ -703,7 +703,7 @@ ul.sidebar-nav {
 			margin-right: 15px;
 			font-size: 13px;
 
-			i {
+			span.fa {
 				@include inline-block;
 				@include border-radius(8px);
 

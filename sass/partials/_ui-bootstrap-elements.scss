@@ -1,5 +1,5 @@
 /* ----------------------------------------------------- */
-/* BOOTSTRAP UI ELEMENTS 
+/* BOOTSTRAP UI ELEMENTS
 /* All styles that override bootstrap elements
 /* ----------------------------------------------------- */
 
@@ -17,7 +17,7 @@
 	background-color: $accent-color;
 	border-color: darken($accent-color, 3%);
 
-	&:hover, &:focus, &.focus, &:active, &.active, 
+	&:hover, &:focus, &.focus, &:active, &.active,
 	.open > .dropdown-toggle.btn-primary {
 		background-color: darken($accent-color, 3%);
 		border-color: darken($accent-color, 8%);
@@ -93,7 +93,7 @@
 .nav-tabs,
 .nav-pills {
 	&.tabs-iconized {
-		> li i {
+		> li span.fa {
 			position: relative;
 			margin-right: 3px;
 			top: 3px;
@@ -159,7 +159,7 @@
 			}
 		}
 	}
-	
+
 	&.tabs-line-top {
 		border-top: 1px solid #ccc;
 
@@ -205,7 +205,7 @@
 .panel-group .panel {
 
 	.panel-title > a {
-		i {
+		span.fa {
 			font-size: 18px;
 
 			&.icon-collapsed {
@@ -244,7 +244,7 @@ div[class*="col-"] > .form-group {
 	> li > span {
 		color: $accent-color;
 	}
-	
+
 	> li {
 		@include pagination-button-color($accent-color);
 
@@ -312,9 +312,9 @@ div[class*="col-"] > .form-group {
 		}
 	}
 
-	.disabled > a, 
-	.disabled > a:hover, 
-	.disabled > a:focus, 
+	.disabled > a,
+	.disabled > a:hover,
+	.disabled > a:focus,
 	.disabled > span {
 		border-color: #ddd;
 	}
