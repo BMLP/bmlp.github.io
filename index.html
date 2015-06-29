@@ -7,43 +7,27 @@ layout: default
 
 		{% include sections/hero.html %}
 
-		<!-- ABOUT -->
-		<section id="about">
-			<div class="container">
-				<div class="heading-center">
-					<h2 class="section-heading">ABOUT US</h2>
-					<p class="lead">Getting to know us better</p>
-					<hr>
-				</div>
-				<p>Completely reinvent business mindshare with superior strategic theme areas. Dramatically build reliable platforms without real-time e-tailers. Competently predominate covalent scenarios rather than future-proof content. Intrinsicly innovate holistic users whereas cost effective partnerships. Objectively transform collaborative outsourcing before an expanded array of services.</p>
-				<p>Monotonectally provide access to next-generation imperatives rather than mission-critical materials. Seamlessly negotiate excellent services rather than web-enabled sources. Quickly actualize proactive niches rather than user friendly catalysts for change. Efficiently negotiate distributed experiences for alternative best practices. Efficiently.</p>
-				<br>
-
-			</div>
-		</section>
-		<!-- END ABOUT -->
-
 		{% for section in site.data.sections %}
 
 			{% if section.url == 'resources' %}
 
 				{% include sections/resources.html section=section %}
 
-			{% else if section.url == 'what-we-do' %}
+			{% elsif section.url == 'what-we-do' %}
 
 				{% include sections/what-we-do.html section=section %}
 
-			{% else if section.url == 'contact' %}
-
-				{% include sections/contact.html section=section %}
-
-			{% else if section.url == 'support-us' %}
+			{% elsif section.url == 'support-us' %}
 
 				{% include sections/support-us.html section=section %}
 
-			{% else if section.url == 'who-we-are' %}
+			{% elsif section.url == 'who-we-are' %}
 
 				{% include sections/who-we-are.html section=section %}
+
+			{% elsif section.url == 'contact' %}
+
+				{% include sections/contact.html section=section %}
 
 			{% endif %}
 

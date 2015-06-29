@@ -125,71 +125,72 @@ hr {
 .section-heading {
   margin-bottom: 20px;
   font-size: 22px;
+  text-transform: uppercase;
 }
-/* line 105, ../../sass/partials/_general.scss */
+/* line 106, ../../sass/partials/_general.scss */
 .section-heading:after {
   display: block;
   content: '......';
   color: #406da4;
   font-weight: 300;
 }
-/* line 112, ../../sass/partials/_general.scss */
+/* line 113, ../../sass/partials/_general.scss */
 .section-heading.panel-title:after {
   display: none;
 }
 
 /* social background color */
-/* line 118, ../../sass/partials/_general.scss */
+/* line 119, ../../sass/partials/_general.scss */
 .facebook-bg {
   background-color: #3b59ab;
 }
 
-/* line 122, ../../sass/partials/_general.scss */
+/* line 123, ../../sass/partials/_general.scss */
 .twitter-bg {
   background-color: #2b97f0;
 }
 
-/* line 126, ../../sass/partials/_general.scss */
+/* line 127, ../../sass/partials/_general.scss */
 .googleplus-bg {
   background-color: #dd4b39;
 }
 
-/* line 130, ../../sass/partials/_general.scss */
+/* line 131, ../../sass/partials/_general.scss */
 .rss-bg {
   background-color: #ff6600;
 }
 
 /* page header */
-/* line 135, ../../sass/partials/_general.scss */
+/* line 136, ../../sass/partials/_general.scss */
 .page-header {
   padding: 5px 0;
   margin: 0;
   border-bottom: 1px solid #eaeaea;
 }
-/* line 140, ../../sass/partials/_general.scss */
+/* line 141, ../../sass/partials/_general.scss */
 .page-header .container {
   position: relative;
 }
-/* line 144, ../../sass/partials/_general.scss */
+/* line 145, ../../sass/partials/_general.scss */
 .page-header .breadcrumb {
   position: absolute;
   top: 50%;
   right: 15px;
   margin-top: -18px;
 }
-/* line 151, ../../sass/partials/_general.scss */
+/* line 152, ../../sass/partials/_general.scss */
 .page-header .page-title {
   margin: 20px 0;
   font-size: 24px;
 }
 @media screen and (max-width: 768px) {
-  /* line 157, ../../sass/partials/_general.scss */
+  /* line 158, ../../sass/partials/_general.scss */
   .page-header .breadcrumb,
   .page-header .page-title {
     float: none !important;
     text-align: center;
   }
-  /* line 163, ../../sass/partials/_general.scss */
+  /* line 164, ../../sass/partials/_general.scss */
   .page-header .breadcrumb {
     position: inherit;
     top: inherit;
@@ -197,110 +198,110 @@ hr {
   }
 }
 
-/* line 171, ../../sass/partials/_general.scss */
+/* line 172, ../../sass/partials/_general.scss */
 .page-content {
   margin: 40px 0;
 }
 
-/* line 176, ../../sass/partials/_general.scss */
+/* line 177, ../../sass/partials/_general.scss */
 .animation-delay-1 {
   -moz-animation-delay: 0.1s !important;
   -webkit-animation-delay: 0.1s !important;
   animation-delay: 0.1s !important;
 }
 
-/* line 180, ../../sass/partials/_general.scss */
+/* line 181, ../../sass/partials/_general.scss */
 .animation-delay-2 {
   -moz-animation-delay: 0.2s !important;
   -webkit-animation-delay: 0.2s !important;
   animation-delay: 0.2s !important;
 }
 
-/* line 184, ../../sass/partials/_general.scss */
+/* line 185, ../../sass/partials/_general.scss */
 .animation-delay-3 {
   -moz-animation-delay: 0.3s !important;
   -webkit-animation-delay: 0.3s !important;
   animation-delay: 0.3s !important;
 }
 
-/* line 188, ../../sass/partials/_general.scss */
+/* line 189, ../../sass/partials/_general.scss */
 .animation-delay-4 {
   -moz-animation-delay: 0.4s !important;
   -webkit-animation-delay: 0.4s !important;
   animation-delay: 0.4s !important;
 }
 
-/* line 192, ../../sass/partials/_general.scss */
+/* line 193, ../../sass/partials/_general.scss */
 .animation-delay-5 {
   -moz-animation-delay: 0.5s !important;
   -webkit-animation-delay: 0.5s !important;
   animation-delay: 0.5s !important;
 }
 
-/* line 196, ../../sass/partials/_general.scss */
+/* line 197, ../../sass/partials/_general.scss */
 .animation-delay-6 {
   -moz-animation-delay: 0.6s !important;
   -webkit-animation-delay: 0.6s !important;
   animation-delay: 0.6s !important;
 }
 
-/* line 200, ../../sass/partials/_general.scss */
+/* line 201, ../../sass/partials/_general.scss */
 .animation-delay-7 {
   -moz-animation-delay: 0.7s !important;
   -webkit-animation-delay: 0.7s !important;
   animation-delay: 0.7s !important;
 }
 
-/* line 204, ../../sass/partials/_general.scss */
+/* line 205, ../../sass/partials/_general.scss */
 .animation-delay-8 {
   -moz-animation-delay: 0.8s !important;
   -webkit-animation-delay: 0.8s !important;
   animation-delay: 0.8s !important;
 }
 
-/* line 208, ../../sass/partials/_general.scss */
+/* line 209, ../../sass/partials/_general.scss */
 .animation-delay-9 {
   -moz-animation-delay: 0.9s !important;
   -webkit-animation-delay: 0.9s !important;
   animation-delay: 0.9s !important;
 }
 
-/* line 212, ../../sass/partials/_general.scss */
+/* line 213, ../../sass/partials/_general.scss */
 .animation-delay-10 {
   -moz-animation-delay: 1s !important;
   -webkit-animation-delay: 1s !important;
   animation-delay: 1s !important;
 }
 
-/* line 216, ../../sass/partials/_general.scss */
+/* line 217, ../../sass/partials/_general.scss */
 .animation-delay-11 {
   -moz-animation-delay: 1.1s !important;
   -webkit-animation-delay: 1.1s !important;
   animation-delay: 1.1s !important;
 }
 
-/* line 220, ../../sass/partials/_general.scss */
+/* line 221, ../../sass/partials/_general.scss */
 .animation-delay-12 {
   -moz-animation-delay: 1.2s !important;
   -webkit-animation-delay: 1.2s !important;
   animation-delay: 1.2s !important;
 }
 
-/* line 224, ../../sass/partials/_general.scss */
+/* line 225, ../../sass/partials/_general.scss */
 .animation-delay-13 {
   -moz-animation-delay: 1.3s !important;
   -webkit-animation-delay: 1.3s !important;
   animation-delay: 1.3s !important;
 }
 
-/* line 228, ../../sass/partials/_general.scss */
+/* line 229, ../../sass/partials/_general.scss */
 .animation-delay-14 {
   -moz-animation-delay: 1.4s !important;
   -webkit-animation-delay: 1.4s !important;
   animation-delay: 1.4s !important;
 }
 
-/* line 232, ../../sass/partials/_general.scss */
+/* line 233, ../../sass/partials/_general.scss */
 .animation-delay-15 {
   -moz-animation-delay: 1.5s !important;
   -webkit-animation-delay: 1.5s !important;
@@ -308,19 +309,19 @@ hr {
 }
 
 /* footer */
-/* line 237, ../../sass/partials/_general.scss */
+/* line 238, ../../sass/partials/_general.scss */
 .footer-heading {
   margin: 0 0 13px 0;
   font-size: 16px;
   line-height: 2;
 }
 
-/* line 243, ../../sass/partials/_general.scss */
+/* line 244, ../../sass/partials/_general.scss */
 .footer-nav > li {
   margin-bottom: 10px;
 }
 
-/* line 247, ../../sass/partials/_general.scss */
+/* line 248, ../../sass/partials/_general.scss */
 .copyright {
   padding: 15px 0;
   background-color: #323232;
