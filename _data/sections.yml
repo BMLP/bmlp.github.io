@@ -1,7 +1,7 @@
-- heading: "Who We Are"
-  lead: 'The people who get things done at BMLP'
-  menu: "Who we are"
-  url: "who-we-are"
+- heading: "About Us"
+  lead: 'What is BMLP'
+  menu: "About US"
+  url: "about-us"
 
 - heading: "What we do"
   lead: "What our organization provides to the movement"
