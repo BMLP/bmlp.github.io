@@ -2,7 +2,7 @@
 layout: default
 category: whatwedo
 published: true
-icon: phone
+icon: "phone-square"
 permalink: "jail-support-training"
 title: Jail Support
 ---
