@@ -331,6 +331,7 @@ hr {
 /* line 255, ../../sass/partials/_general.scss */
 #crDonateWidget {
   @center-block;
+  margin: 0 auto;
 }
 
 /* Slider */
