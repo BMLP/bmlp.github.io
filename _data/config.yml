@@ -7,9 +7,9 @@ mailchimp_form_url: "//bmlp.us11.list-manage.com/subscribe/post?u=4caff5c5b26c1b
 #  If you change it, submit the form and then confirm from your inbox.
 contactemail: info@bmlp.org
 # Contact form submissions are cc'd to this address
-contactemailalt: thatsright@gmail.com
+contactemailalt: info@bmlp.org
 
-contactphone: "+1 (234) 234-2342"
+contactphone:
 # Postal address line1 & 2
 address1: "577 Broadway"
 address2: "Brooklyn, Ny 11238"
