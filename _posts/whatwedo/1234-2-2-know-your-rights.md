@@ -1,8 +1,10 @@
 ---
 layout: default
 category: whatwedo
-published: false
+published: true
 icon: gavel
+title: Know Your Rights Training
 ---
+
 
 Train local activists on their constitutinal righs and protest rights.
