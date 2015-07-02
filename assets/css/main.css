@@ -328,6 +328,11 @@ hr {
   font-size: 12px;
 }
 
+/* line 255, ../../sass/partials/_general.scss */
+#crDonateWidget {
+  @center-block;
+}
+
 /* Slider */
 /* line 3, ../../sass/vendors/_slick.custom.scss */
 .slick-slider {
