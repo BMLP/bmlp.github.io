@@ -10,17 +10,17 @@
   menu: "What We Do"
   url: "what-we-do"
 
-- heading: "Movement Resources"
-  lead: "Tools and Resources for Legal Observers, Jail Support Volunteers & Trainers"
+- heading: "Resources"
+  lead: "Tools and Resources for Activists and Oraganizations"
   menu: "Resources"
   url: "resources"
 
 - heading: "Support Us"
-  lead: "Help our project thrive in any circumstances"
+  lead: "Help BMLP Become Sustainable"
   menu: "Support Us"
   url: "support-us"
 
 - heading: "Get in Touch"
-  lead: "Connect with us to help strengthen your local movement"
+  lead: "Connect with us to for updates and to partner with BMLP"
   menu: "Contact"
   url: "contact"
