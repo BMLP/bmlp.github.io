@@ -7,5 +7,4 @@ fileorlink: link
 link: "http://www.nlg.org/resource/know-your-rights"
 ---
 
-
-[National Lawyers Guild "Know Your Rights" resources.](http://www.nlg.org/resource/know-your-rights)
+Multi-language "Right to Remain Silent" booklets from the [National Lawyers Guild](nlg.org).
