@@ -1,5 +1,7 @@
 - heading: "About Us"
-  lead: 'What is BMLP'
+  lead: >
+    Supporting movements for Black liberation by helping build the legal
+    infrastructure necessary to protect emerging local movements.
   menu: "About Us"
   url: "about-us"
 
