@@ -7,4 +7,5 @@ title: Know Your Rights Training
 ---
 
 
-Train local activists on their constitutinal righs and protest rights.
+
+Train activists on their constitutinal righs and protest rights and work with local organizations to create their own materials.
