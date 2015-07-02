@@ -8,4 +8,5 @@ icon: binoculars
 
 
 
-Legal Observers are the constitutions eyes on the ground. Partnering with other organizations, we help bring civil right and human rights accountability to street protests by training and deploying Legal Observers.
+
+Legal Observers are the Constitution's eyes on the ground. Partnering with other organizations, we help bring civil right and human rights accountability to street protests by training and deploying Legal Observers.
