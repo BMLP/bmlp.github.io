@@ -7,10 +7,10 @@ mailchimp_form_url: "//bmlp.us11.list-manage.com/subscribe/post?u=4caff5c5b26c1b
 #  If you change it, submit the form and then confirm from your inbox.
 contactemail: info@bmlp.org
 # Contact form submissions are cc'd to this address
-contactemailalt: info@bmlp.org
+#contactemailalt: info@bmlp.org
 
 contactphone:
 # Postal address line1 & 2
-address1: "BMLP/AfGJ, 225 E. 26th St. Suite 1"
-address2: "Tucson, AZ 85713"
+address1: "Make Checks to: BMLP/AfGJ"
+address2: "225 E. 26th St. Suite 1, Tucson, AZ 85713"
 address3: "line 3"
