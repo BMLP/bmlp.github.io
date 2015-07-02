@@ -3,7 +3,7 @@ layout: default
 category: whatwedo
 published: true
 title: Legal Observers
-icon: Binoculars
+icon: binoculars
 ---
 
 
