@@ -1,10 +1,10 @@
 - heading: "About Us"
   lead: 'What is BMLP'
-  menu: "About US"
+  menu: "About Us"
   url: "about-us"
 
 - heading: "What we do"
-  lead: "What our organization provides to the movement"
+  lead: "Key Areas of Expertise"
   menu: "What We Do"
   url: "what-we-do"
 
