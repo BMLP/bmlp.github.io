@@ -37,4 +37,13 @@ jQuery( function($){
 		});
 	}
 
+	// $('#contact-form').submit(function(event){
+	// 	formData = $(this).serialize();
+	// 	$.ajax({
+	//     url: "//formspree.io/richard.j.schulte@gmail.com",
+	//     method: "POST",
+	//     data: formData,
+	//     dataType: "json"
+	// 	});
+	// });
 });
