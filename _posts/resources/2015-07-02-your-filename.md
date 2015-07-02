@@ -1,7 +1,7 @@
 ---
 layout: default
 category: resources
-published: false
+published: true
 title: If an Agent Knocks
 fileorlink: link
 link: "https://ccrjustice.org/if-agent-knocks-booklet"
