@@ -313,6 +313,7 @@
 @include max-screen($break-small) {
 	.navbar-brand {
 		margin-top: 0;
+		font-size:80%;
 	}
 
 	.navbar-collapse.collapse,

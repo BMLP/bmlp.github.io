@@ -6,8 +6,14 @@
           <p class="lead">{{section.lead}}</p>
           <hr>
         </div>
-        <p>{{site.data.texts.about_us}}</p>
-        <br>
+        <div class="row">
+          <div class="col-md-6">
+            <p>{{site.data.texts.about_us}}</p>
+          </div>
+          <div class="col-md-6">
+              <img class="thumbnail" style="width:100%" src="{{site.baseurl}}/{{site.prose.media}}/{{section.photo}}" alt="{{section.photo_alt}}" title="{{section.photo_alt}}" />
+          </div>
+        </div>
 
       </div>
     </section>

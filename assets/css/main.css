@@ -14,7 +14,7 @@
 /* line 3, ../../sass/partials/_general.scss */
 body {
   font-family: "Open Sans", sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   color: #4a4a4a;
   line-height: 1.6;
 }
@@ -332,6 +332,11 @@ hr {
 #crDonateWidget_BlackMovement-LawProjectStartUp_nicolelee4 {
   @center-block;
   margin: 0 auto;
+}
+
+/* line 261, ../../sass/partials/_general.scss */
+section#about-us p {
+  font-size: 120%;
 }
 
 /* Slider */

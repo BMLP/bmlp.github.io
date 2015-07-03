@@ -14,11 +14,12 @@
             <br>
             <address class="margin-bottom-30px">
               <ul class="list-unstyled">
-                <li>{{site.data.config.address1}}
-                  <br/>{{site.data.config.address2}}
-                  <br/>{{site.data.config.address3}}
-                  <br/>{{site.data.config.address4}}
-                </li>
+                <li>
+                  <strong>{{site.data.config.address_header}}</strong>
+                  {% for addressline in site.data.config.address %}
+                    <br/>{{addressline}}
+                  {% endfor %}
+                  </li>
                 <li>Phone: {{site.data.config.contactphone}}</li>
                 <li>{{site.data.config.contactemail}}</li>
               </ul>

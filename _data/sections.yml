@@ -4,6 +4,8 @@
     infrastructure necessary to protect emerging local movements.
   menu: "About Us"
   url: "about-us"
+  photo: "about-us.jpg"
+  photo_alt: "A BMLP Legal Observer observing protestors locking arms and blocking a street in Cleveland"
 
 - heading: "What we do"
   lead: "Key Areas of Expertise, Training, and Support"

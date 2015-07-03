@@ -2,7 +2,7 @@
 
 body {
 	font-family: $base-font-family;
-	font-size: 13px;
+	font-size: 14px;
 	color: $body-text-color;
 	line-height: 1.6;
 
@@ -255,4 +255,9 @@ hr {
 #crDonateWidget_BlackMovement-LawProjectStartUp_nicolelee4 {
 	@center-block;
 	  margin: 0 auto;
+}
+
+
+section#about-us p {
+	font-size:120%;
 }

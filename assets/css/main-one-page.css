@@ -14,7 +14,7 @@
 /* line 3, ../../sass/partials/_general.scss */
 body {
   font-family: "Open Sans", sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   color: #4a4a4a;
   line-height: 1.6;
 }
@@ -332,6 +332,11 @@ hr {
 #crDonateWidget_BlackMovement-LawProjectStartUp_nicolelee4 {
   @center-block;
   margin: 0 auto;
+}
+
+/* line 261, ../../sass/partials/_general.scss */
+section#about-us p {
+  font-size: 120%;
 }
 
 /* Slider */
@@ -3428,41 +3433,42 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   /* line 314, ../../sass/partials/_navbar.scss */
   .navbar-brand {
     margin-top: 0;
+    font-size: 90%;
   }
 
-  /* line 318, ../../sass/partials/_navbar.scss */
+  /* line 319, ../../sass/partials/_navbar.scss */
   .navbar-collapse.collapse,
   .navbar-collapse.collapsing {
     padding-left: 15px;
     padding-right: 15px;
   }
 
-  /* line 324, ../../sass/partials/_navbar.scss */
+  /* line 325, ../../sass/partials/_navbar.scss */
   .navbar-default .navbar-nav {
     margin-left: 0;
   }
-  /* line 328, ../../sass/partials/_navbar.scss */
+  /* line 329, ../../sass/partials/_navbar.scss */
   .navbar-default .navbar-nav .dropdown-menu .dropdown a {
     background-color: inherit;
   }
-  /* line 332, ../../sass/partials/_navbar.scss */
+  /* line 333, ../../sass/partials/_navbar.scss */
   .navbar-default .navbar-nav .dropdown-menu .dropdown span.fa {
     display: none;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 340, ../../sass/partials/_navbar.scss */
+  /* line 341, ../../sass/partials/_navbar.scss */
   .navbar-toggle {
     margin-right: 15px;
   }
 
-  /* line 344, ../../sass/partials/_navbar.scss */
+  /* line 345, ../../sass/partials/_navbar.scss */
   .navbar > .container .navbar-brand {
     margin-left: 5px;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 350, ../../sass/partials/_navbar.scss */
+  /* line 351, ../../sass/partials/_navbar.scss */
   .navbar > .container .navbar-brand {
     margin-left: -10px;
   }
