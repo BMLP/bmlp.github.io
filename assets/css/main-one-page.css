@@ -336,7 +336,7 @@ hr {
 
 /* line 261, ../../sass/partials/_general.scss */
 section#about-us p {
-  font-size: 120%;
+  font-size: 110%;
 }
 
 /* Slider */
@@ -3433,7 +3433,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   /* line 314, ../../sass/partials/_navbar.scss */
   .navbar-brand {
     margin-top: 0;
-    font-size: 90%;
+    font-size: 18px;
   }
 
   /* line 319, ../../sass/partials/_navbar.scss */
@@ -3513,33 +3513,49 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   background-color: #3c6699;
 }
 @media screen and (max-width: 1200px) {
-  /* line 44, ../../sass/partials/_hero-unit.scss */
+  /* line 6, ../../sass/partials/_hero-unit.scss */
+  .hero-unit-animated {
+    height: 600px;
+  }
+  /* line 45, ../../sass/partials/_hero-unit.scss */
   .hero-unit-animated .hero-left {
     max-width: 100%;
     float: none !important;
     text-align: center;
   }
-  /* line 50, ../../sass/partials/_hero-unit.scss */
+  /* line 51, ../../sass/partials/_hero-unit.scss */
   .hero-unit-animated .hero-heading {
     font-size: 36px;
   }
-  /* line 54, ../../sass/partials/_hero-unit.scss */
+  /* line 55, ../../sass/partials/_hero-unit.scss */
   .hero-unit-animated .lead {
     font-size: 18px;
   }
-  /* line 58, ../../sass/partials/_hero-unit.scss */
+  /* line 59, ../../sass/partials/_hero-unit.scss */
   .hero-unit-animated .hero-right {
     display: none;
   }
 }
+@media screen and (max-width: 992px) {
+  /* line 6, ../../sass/partials/_hero-unit.scss */
+  .hero-unit-animated {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 6, ../../sass/partials/_hero-unit.scss */
+  .hero-unit-animated {
+    height: 200px;
+  }
+}
 
-/* line 64, ../../sass/partials/_hero-unit.scss */
+/* line 71, ../../sass/partials/_hero-unit.scss */
 .hero-left {
   max-width: 50%;
 }
 
 /* carousel */
-/* line 69, ../../sass/partials/_hero-unit.scss */
+/* line 76, ../../sass/partials/_hero-unit.scss */
 .carousel-control {
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -3553,138 +3569,138 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   height: 45px;
   background: #777;
 }
-/* line 80, ../../sass/partials/_hero-unit.scss */
+/* line 87, ../../sass/partials/_hero-unit.scss */
 .carousel-control:hover {
   background: #6a6a6a;
 }
-/* line 84, ../../sass/partials/_hero-unit.scss */
+/* line 91, ../../sass/partials/_hero-unit.scss */
 .carousel-control.left, .carousel-control.right {
   background-image: none;
 }
-/* line 88, ../../sass/partials/_hero-unit.scss */
+/* line 95, ../../sass/partials/_hero-unit.scss */
 .carousel-control .fa {
   line-height: 45px;
 }
 
-/* line 93, ../../sass/partials/_hero-unit.scss */
+/* line 100, ../../sass/partials/_hero-unit.scss */
 .carousel-indicators {
   bottom: -90px;
 }
-/* line 96, ../../sass/partials/_hero-unit.scss */
+/* line 103, ../../sass/partials/_hero-unit.scss */
 .carousel-indicators > li {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
   background-color: #fff;
 }
-/* line 101, ../../sass/partials/_hero-unit.scss */
+/* line 108, ../../sass/partials/_hero-unit.scss */
 .carousel-indicators > li.active {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
 }
 
 /* hero unit slider */
-/* line 108, ../../sass/partials/_hero-unit.scss */
+/* line 115, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider {
   /* hero unit with slick carousel */
 }
-/* line 109, ../../sass/partials/_hero-unit.scss */
+/* line 116, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .carousel-inner > .item {
   overflow: hidden;
 }
-/* line 113, ../../sass/partials/_hero-unit.scss */
+/* line 120, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .carousel-caption {
   bottom: inherit;
   top: 8em;
   text-shadow: none;
 }
-/* line 119, ../../sass/partials/_hero-unit.scss */
+/* line 126, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .hero-heading {
   font-size: 50px;
   color: #fff;
 }
-/* line 124, ../../sass/partials/_hero-unit.scss */
+/* line 131, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .hero-button {
   border: 3px solid #fff;
   color: #fff;
 }
-/* line 128, ../../sass/partials/_hero-unit.scss */
+/* line 135, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .hero-button:hover, .hero-unit-slider .hero-button:focus {
   background: #406da4;
   color: #fff;
 }
-/* line 134, ../../sass/partials/_hero-unit.scss */
+/* line 141, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .carousel-indicators {
   bottom: 0;
 }
-/* line 138, ../../sass/partials/_hero-unit.scss */
+/* line 145, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .carousel-control {
   background: rgba(0, 0, 0, 0.2);
 }
-/* line 141, ../../sass/partials/_hero-unit.scss */
+/* line 148, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .carousel-control:hover {
   background: rgba(0, 0, 0, 0.3);
 }
 @media screen and (min-width: 1200px) and (max-width: 1440px) {
-  /* line 147, ../../sass/partials/_hero-unit.scss */
+  /* line 154, ../../sass/partials/_hero-unit.scss */
   .hero-unit-slider .carousel-caption {
     top: 10em;
   }
 }
 @media screen and (max-width: 1200px) {
-  /* line 153, ../../sass/partials/_hero-unit.scss */
+  /* line 160, ../../sass/partials/_hero-unit.scss */
   .hero-unit-slider .carousel-inner > .item > img {
     max-width: inherit;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 159, ../../sass/partials/_hero-unit.scss */
+  /* line 166, ../../sass/partials/_hero-unit.scss */
   .hero-unit-slider .carousel-caption {
     top: 11em;
   }
-  /* line 163, ../../sass/partials/_hero-unit.scss */
+  /* line 170, ../../sass/partials/_hero-unit.scss */
   .hero-unit-slider .hero-heading {
     font-size: 28px;
   }
-  /* line 167, ../../sass/partials/_hero-unit.scss */
+  /* line 174, ../../sass/partials/_hero-unit.scss */
   .hero-unit-slider .lead {
     font-size: 16px;
   }
-  /* line 171, ../../sass/partials/_hero-unit.scss */
+  /* line 178, ../../sass/partials/_hero-unit.scss */
   .hero-unit-slider .hero-button {
     font-size: 13px;
   }
 }
-/* line 178, ../../sass/partials/_hero-unit.scss */
+/* line 185, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .slick-carousel .slick-slider {
   margin-bottom: 0;
 }
-/* line 182, ../../sass/partials/_hero-unit.scss */
+/* line 189, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .slick-carousel .slick-prev, .hero-unit-slider .slick-carousel .slick-next {
   top: 50%;
   margin-top: -22.5px;
   width: 45px;
   height: 45px;
 }
-/* line 188, ../../sass/partials/_hero-unit.scss */
+/* line 195, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .slick-carousel .slick-prev:hover, .hero-unit-slider .slick-carousel .slick-prev:focus, .hero-unit-slider .slick-carousel .slick-next:hover, .hero-unit-slider .slick-carousel .slick-next:focus {
   background: rgba(0, 0, 0, 0.3);
 }
-/* line 193, ../../sass/partials/_hero-unit.scss */
+/* line 200, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .slick-carousel .slick-prev {
   left: 0;
 }
-/* line 197, ../../sass/partials/_hero-unit.scss */
+/* line 204, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .slick-carousel .slick-dots {
   position: absolute;
   bottom: 20px;
 }
-/* line 201, ../../sass/partials/_hero-unit.scss */
+/* line 208, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .slick-carousel .slick-dots button {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
   background-color: #fff;
 }
-/* line 207, ../../sass/partials/_hero-unit.scss */
+/* line 214, ../../sass/partials/_hero-unit.scss */
 .hero-unit-slider .slick-carousel .slick-dots .slick-active button {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;

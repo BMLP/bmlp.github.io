@@ -41,6 +41,7 @@
 	}
 
 	@include max-screen($break-large) {
+		height:600px;
 		.hero-left {
 			max-width: 100%;
 			float: none !important;
@@ -58,6 +59,12 @@
 		.hero-right {
 			display: none;
 		}
+	}
+	@include max-screen($break-medium) {
+		height:400px;
+	}
+	@include max-screen($break-small) {
+		height:200px;
 	}
 }
 
