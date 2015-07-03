@@ -3,7 +3,7 @@
 @import "modules/breakpoints";
 @import "modules/mixins";
 
-$accent-color: #CD5C5C;
+$accent-color: darken(#e31b23, 8%);
 $link-hover-color: darken($accent-color, 8%);
 
 @import "_skin-styles";

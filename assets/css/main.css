@@ -339,6 +339,11 @@ section#about-us .about {
   font-size: 110%;
 }
 
+/* line 267, ../../sass/partials/_general.scss */
+footer .newsletter-form .input-group-lg > .input-group-btn > .btn {
+  background-color: #00853f;
+}
+
 /* Slider */
 /* line 3, ../../sass/vendors/_slick.custom.scss */
 .slick-slider {
