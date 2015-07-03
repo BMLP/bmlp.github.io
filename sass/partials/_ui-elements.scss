@@ -104,7 +104,7 @@
 	text-align: center;
 	margin-bottom: 35px;
 
-	> span.fa {
+	> span.fa-boxed {
 		font-size: 8em;
 		color: $accent-color;
 	}
@@ -123,7 +123,7 @@
 			font-weight: normal;
 		}
 
-		span.fa {
+		span.fa-boxed {
 			float: left;
 			margin-right: 10px;
 			font-size: 2em;
@@ -131,7 +131,7 @@
 	}
 
 	&.left-boxed-icon {
-		span.fa {
+		span.fa-boxed {
 			@include border-radius(2px);
 
 			padding: 10px;

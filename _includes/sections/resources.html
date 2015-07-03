@@ -7,19 +7,23 @@
       <hr>
     </div>
     {% for resource in site.categories.resources %}
+    {% assign link_text = "Download This File" %}{% assign link_icon = "download" %}
       <div class="col-md-4">
         <div class="boxed-content left-aligned left-boxed-icon">
-          {% if resource.fileorlink == 'file'%}
-          <a href="{{site.baseurl}}/{{site.prose.media}}/{{resource.path}}" target="_blank" download title="Access this resource">
-            <span class="fa fa-download"></span>
-          </a>
-          {% elsif resource.fileorlink == 'link' %}
-          <a href="{{resource.link}}" target="_blank">
-            <span class="fa fa-link"></span>
-          </a>
+          {% if resource.fileorlink == 'link' %}
+            {% assign link_text = "Follow Link" %} {% assign link_icon = "link" %}
           {% endif %}
+          <a title="{{link_text}}" {% if resource.fileorlink =='download' %}href="{{site.baseurl}}/{{site.prose.media}}/{{resource.path}}" download title="{{link_text}}" %}{% else %} href="{{resource.link}}" target="_blank"  {% endif%} >
+            <span class="fa fa-boxed fa-{{link_icon}}"></span>
+          </a>
           <h2 class="boxed-content-title">{{resource.title}}</h2>
           <p>{{resource.content}}</p>
+          <div class="resource-download text-right">
+            <a class="btn btn-primary"  title="{{link_text}}" {% if resource.fileorlink =='download' %}href="{{site.baseurl}}/{{site.prose.media}}/{{resource.path}}" download title="{{link_text}}" %}{% else %} href="{{resource.link}}" target="_blank" {% endif%} >
+            <span class="fa fa-{{link_icon}}"></span>&nbsp;
+            {{link_text}}
+            </a>
+          </div>
         </div>
       </div>
       {% endfor %}
