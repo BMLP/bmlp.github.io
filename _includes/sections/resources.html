@@ -10,7 +10,7 @@
       <div class="col-md-4">
         <div class="boxed-content left-aligned left-boxed-icon">
           {% if resource.fileorlink == 'file'%}
-          <a href="{{site.baseurl}}/{{site.prose.media}}/{{resource.path}}" target="_blank" download>
+          <a href="{{site.baseurl}}/{{site.prose.media}}/{{resource.path}}" target="_blank" download title="Access this resource">
             <span class="fa fa-download"></span>
           </a>
           {% elsif resource.fileorlink == 'link' %}
