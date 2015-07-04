@@ -1,0 +1,68 @@
+---
+layout: default
+section: blog
+title: BMLP Blog
+description: News and updates from BMLP
+---
+
+<div class="page-header">
+  <div class="container">
+    <h1 class="page-title pull-left">{{page.title}}</h1>
+    <ol class="breadcrumb">
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#">Blog</a>
+      </li>
+      <li class="active">Blog Medium Thumbnail</li>
+    </ol>
+  </div>
+</div>
+<div class="page-content">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="blog medium-thumbnail margin-bottom-30px">
+          {% for post in site.categories.blogposts %}
+          <article class="entry-post">
+            <header class="entry-header">
+              <h2 class="entry-title">
+                    <a href="{{post.url}}">{{post.title}}</a>
+                  </h2>
+              <div class="meta-line clearfix">
+                <div class="meta-author-category pull-left">
+                  <span class="post-author">by <a href="#">{{post.author}}</a></span>
+                  <span class="post-category">In: <a href="#">Business</a>, <a href="#">Creative</a>, <a href="#">Media</a></span>
+                </div>
+              </div>
+            </header>
+            <div class="entry-content clearfix">
+              <div class="row">
+                <div class="col-sm-5">
+                  <figure class="featured-image">
+                    <a href="{{post.url}}">
+                      <div class="post-date-info clearfix"><span class="post-month">DEC</span><span class="post-date">11</span><span class="post-year">2014</span></div>
+                      <img src="{{post.image}}" class="img-responsive" alt="featured-image">
+                    </a>
+                  </figure>
+                </div>
+                <div class="col-sm-7">
+                  <div class="excerpt">
+                    <p>{{post.excerpt}}</p>
+                    <p class="read-more">
+                      <a href="{{post.url}}" class="btn btn-primary">Read More <i class="fa fa-long-arrow-right"></i></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="col-md-3">
+      </div>
+    </div>
+  </div>
+</div>

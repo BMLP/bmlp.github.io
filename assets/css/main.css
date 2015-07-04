@@ -344,6 +344,11 @@ footer .newsletter-form .input-group-lg > .input-group-btn > .btn {
   background-color: #00853f;
 }
 
+/* line 272, ../../sass/partials/_general.scss */
+.page-header {
+  margin-top: 60px;
+}
+
 /* Slider */
 /* line 3, ../../sass/vendors/_slick.custom.scss */
 .slick-slider {

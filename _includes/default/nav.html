@@ -13,13 +13,16 @@
         <div id="main-nav" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="#top">HOME</a>
+                    <a href="#top">Home</a>
                 </li>
                 {% for section in site.data.sections %}
                 <li>
-                  <a href="#{{section.url}}">{{section.menu}}</a>
+                  <a href="/#{{section.url}}">{{section.menu}}</a>
                 </li>
               {% endfor %}
+              <li>
+                  <a href="/blog">Blog</a>
+              </li>
             </ul>
         </div>
         <!-- MAIN NAVIGATION -->
