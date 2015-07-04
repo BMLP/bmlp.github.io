@@ -375,6 +375,10 @@ $(document).ready(function() {
   if ($('#contact-form').length > 0) {
     $('#contact-form').parsley();
 
+    $("input[type=checkbox]#volunteerOptIn").change(function(){
+		    $("fieldset#volunteerInfo").toggle(this.checked);
+		});
+
     $('.contact-form-wrapper form').submit(function(e) {
       e.preventDefault();
 
