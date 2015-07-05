@@ -71,9 +71,9 @@
             <div class="newsletter">
               <h3 class="footer-heading">NEWSLETTER</h3>
               <p>Get the latest update from us by subscribing to our newsletter.</p>
-              <form  data-parsley-validate class="newsletter-form" action="{{site.data.config.mailchimp_form_url}}" method="POST" >
+              <form  data-parsley-validate class="newsletter-form" action="{{site.data.config.mailchimp_form_url}}" method="GET" >
                 <div class="input-group input-group-lg">
-                  <input type="email" class="form-control" name="email" placeholder="youremail@domain.com">
+                  <input type="email" class="form-control" name="EMAIL" placeholder="youremail@domain.com">
                   <span class="input-group-btn">
                     <button class="btn btn-primary" type="button"><span class="fa fa-spinner fa-spin"></span><span>SUBSCRIBE</span>
                   </button>

@@ -2,10 +2,10 @@ facebook: https://www.facebook.com/blackmovementlawproject
 # Without the @ sign
 twitter: "Black_MLP"
 # When you generate an embedded mailchimp form, this will be the action="" parameter in the embed code.
-mailchimp_form_url: "//bmlp.us11.list-manage.com/subscribe/post?u=4caff5c5b26c1b3239a668641&amp;id=16efa33510"
+mailchimp_form_url: "//bmlp.us11.list-manage.com/subscribe/post-json?u=4caff5c5b26c1b3239a668641&amp;id=16efa33510"
 # Note: changing contact email requires an email confirmation.
 #  If you change it, submit the form and then confirm from your inbox.
-contactemail: info@bmlp.org
+contactemail: richard.j.schulte@gmail.com
 # Contact form submissions are cc'd to this address
 #contactemailalt: info@bmlp.org
 

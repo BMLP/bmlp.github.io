@@ -45,14 +45,14 @@
               <div class="row">
                 <div class="col-sm-6">
                   <div class="form-group">
-                    <label for="contact-name" class="control-label sr-only">First Name</label>
-                    <input data-parsley-required-message="Name is required" type="text" class="form-control" id="contact-name" name="firstname" placeholder="First Name" required>
+                    <label for="firstname" class="control-label sr-only">First Name</label>
+                    <input data-parsley-required-message="Name is required" type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name" required>
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="form-group">
-                    <label for="contact-name" class="control-label sr-only">Last Name</label>
-                    <input data-parsley-required-message="Name is required" type="text" class="form-control" id="contact-name" name="lastname" placeholder="Last Name" required>
+                    <label for="lastname" class="control-label sr-only">Last Name</label>
+                    <input data-parsley-required-message="Name is required" type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name" required>
                   </div>
                 </div>
               </div>
@@ -65,9 +65,10 @@
               <div class="row">
                 <div class="col-sm-3">
                   <div class="form-group">
-                    <label for="contact-email" class="control-label sr-only">Zip</label>
+                    <label for="zip" class="control-label sr-only">Zip</label>
                     <input data-parsley-required-message="Zip is required" data-parsley-type="integer" type="text" data-parsley-length-message="Please provide a 5 character US zipcode" data-parsley-type-message="Please provide a valid 5 digit integer" data-parsley-length="[5,5]" class="form-control" id="zip" name="zip" placeholder="Zip" maxlength="5" length="5">
                   </div>
+                   <input type="hidden" name="ziplocation" id="ziplocation" />
                 </div>
                 <div class="col-sm-9">
                   <label for="contact-email" class="control-label sr-only">Phone</label>
@@ -116,7 +117,7 @@
               </div>
             </fieldset>
             <input type="hidden" name="_cc" value="{{site.data.config.contactemailalt}}" />
-            <input type="hidden" name="ziplocation" id="ziplocation" />
+
             <input type="text" name="_gotcha" style="display:none" />
             <div class="form-group">
               <div class="col-sm-12">

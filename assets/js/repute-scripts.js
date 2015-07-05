@@ -247,13 +247,13 @@ $(document).ready(function() {
 	/* MASKED INPUT
 	/*-------------------------------*/
 
-  if ($('#masked-input-demo').length > 0) {
-    $('#phone').mask('(999) 999-9999');
-    $('#phone-ex').mask('(999) 999-9999? x99999');
-    $('#tax-id').mask('99-9999999');
-    $('#ssn').mask('999-99-9999');
-    $('#product-key').mask('a*-999-a999');
-  }
+  // if ($('#contact-form').length > 0) {
+  //   $('#phone').mask('(999) 999-9999');
+  //   // $('#phone-ex').mask('(999) 999-9999? x99999');
+  //   // $('#tax-id').mask('99-9999999');
+  //   // $('#ssn').mask('999-99-9999');
+  //   // $('#product-key').mask('a*-999-a999');
+  // }
 
 
   /*--------------------------------/
@@ -332,30 +332,31 @@ $(document).ready(function() {
     $.ajax({
 
       url: formUrl,
-      type: 'POST',
-      dataType: 'json',
+      type: 'get',
+      dataType: 'jsonp',
+      jsonp: 'c',
       cache: false,
       data: {
-        email: newsletter.find('input[name="email"]').val(),
+        EMAIL: newsletter.find('input[name="EMAIL"]').val(),
       },
       beforeSend: function() {
         $btn.addClass('loading');
         $btn.attr('disabled', 'disabled');
       },
       success: function(data, textStatus, XMLHttpRequest) {
-
+      	console.log(data);
         var className = '';
 
-        if (data.result == true) {
+        if (data.result === 'success') {
           className = 'alert-success';
         } else {
           className = 'alert-danger';
         }
-
-        newsletter.find('.alert').html(data.message)
-          .removeClass('alert-danger alert-success')
-          .addClass('alert active ' + className)
-          .slideDown(300);
+        var alert =  newsletter.find('.alert');
+        alert.html(data.msg);
+        alert.removeClass('alert-danger alert-success')
+        alert.addClass('alert active ' + className)
+        alert.slideDown(300);
 
         $btn.removeClass('loading');
         $btn.removeAttr('disabled');
@@ -418,7 +419,7 @@ $(document).ready(function() {
 				    }
 				  }).done(function(response){
 				  	if (response.status == "OK"){
-				    	var fulladdress = response.results[0].address_components;
+				    	var fulladdress = response.results[0].formatted_address;
 				    	$('input#ziplocation').val(fulladdress);
 				    	postAndMessage();
 				  	}
@@ -427,7 +428,7 @@ $(document).ready(function() {
       	postAndMessage();
       }
       var postAndMessage = function(){
-	      var formData = $(this).serialize();
+	      var formData = $('.contact-form-wrapper form').serialize();
 	      $.ajax({
 	          url: $url,
 	          method: "POST",
