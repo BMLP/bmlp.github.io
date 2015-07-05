@@ -3,8 +3,9 @@ facebook: https://www.facebook.com/blackmovementlawproject
 twitter: "Black_MLP"
 # When you generate an embedded mailchimp form, provide thus url. Append -json to subscribe/post, as you see below.
 mailchimp_form_url: "//bmlp.us11.list-manage.com/subscribe/post-json?u=4caff5c5b26c1b3239a668641&amp;id=16efa33510"
-# Note: changing contact email requires an email confirmation.
-#  If you change it, submit the form and then confirm from your inbox.
+# Note: changing the contact email requires an email confirmation.
+# If you change it, submit the form right away, and then confirm with formspree
+# from your inbox. Otherwise, user submissions won't go through.
 contactemail: info@bmlp.org
 # Contact form submissions are cc'd to this address
 #contactemailalt: info@bmlp.org
