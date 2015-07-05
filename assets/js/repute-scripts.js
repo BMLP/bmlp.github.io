@@ -401,29 +401,56 @@ $(document).ready(function() {
       if (typeof $attr !== typeof undefined && $attr !== false) {
         if ($(this).attr('action') != '') $url = $(this).attr('action');
       }
-      var formData = $(this).serialize();
-      $.ajax({
-          url: $url,
-          method: "POST",
-          dataType: "json",
-          data: formData
-        })
-        .done(function(message) {
 
-          if (message.success) {
-            $message = message.success;
-            $theForm.slideUp('medium', function() {
-              $alert.removeClass('alert-danger');
-              $alert.addClass('alert-success').html($message).slideDown('medium');
-            });
-          } else {
-            $alert.addClass('alert-danger').html(message.error).slideDown('medium');
-          }
 
-          $btn.find('.loading-icon').removeClass('fa-spinner fa-spin ');
-          $btn.prop('disabled', false).find('span').text($btnText);
+      console.log($(this));
 
-        });
+     	var zip = $('fieldset input#zip').val()
+
+      if (zip > 0){
+
+      	$.ajax( {
+				    url  : 'https://maps.googleapis.com/maps/api/geocode/json',
+				    data : {
+				        sensor  : true,
+				        address : zip,
+				        components: 'country:US'
+				    }
+				  }).done(function(response){
+				  	if (response.status == "OK"){
+				    	var fulladdress = response.results[0].address_components;
+				    	$('input#ziplocation').val(fulladdress);
+				    	postAndMessage();
+				  	}
+				  });
+      } else {
+      	postAndMessage();
+      }
+      var postAndMessage = function(){
+	      var formData = $(this).serialize();
+	      $.ajax({
+	          url: $url,
+	          method: "POST",
+	          dataType: "json",
+	          data: formData
+	        })
+	        .done(function(message) {
+
+	          if (message.success) {
+	            $message = message.success;
+	            $theForm.slideUp('medium', function() {
+	              $alert.removeClass('alert-danger');
+	              $alert.addClass('alert-success').html($message).slideDown('medium');
+	            });
+	          } else {
+	            $alert.addClass('alert-danger').html(message.error).slideDown('medium');
+	          }
+
+	          $btn.find('.loading-icon').removeClass('fa-spinner fa-spin ');
+	          $btn.prop('disabled', false).find('span').text($btnText);
+
+	        });
+	      }
     });
   }
 

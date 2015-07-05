@@ -1,111 +1,135 @@
 <!-- CONTACT -->
-    <section id="contact">
-      <div class="container">
-        <div class="heading-center">
-          <h2 class="section-heading">{{section.heading}}</h2>
-          <p class="lead">{{section.lead}}</p>
-          <hr>
-        </div>
-      </div>
-<!--       <div class="google-map margin-bottom-50px">
+<section id="contact">
+  <div class="container">
+    <div class="heading-center">
+      <h2 class="section-heading">{{section.heading}}</h2>
+      <p class="lead">{{section.lead}}</p>
+      <hr>
+    </div>
+  </div>
+  <!--       <div class="google-map margin-bottom-50px">
         <div id="custom-map-canvas"></div>
       </div> -->
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <ul class="contact-info contact-half margin-bottom-50px fa-ul">
-              <li><span class="fa fa-li fa-building-o"></span>
-              <h3>Address</h3>
-                  <strong>{{site.data.config.address_header}}</strong>
-                  {% for addressline in site.data.config.address %}
-                    <br/>{{addressline}}
-                  {% endfor %}
-              </li>
-              <li><span class="fa fa-li fa-phone"></span>
-                <h3>Phone</h3>
-                <p>{{site.data.config.contactphone}}</p>
-              </li>
-              <li><span class="fa fa-li fa-envelope-o"></span>
-                <h3>Email</h3>
-                <p><a href="{{site.data.config.contactemail}}">{{site.data.config.contactemail}}</a></p>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-6">
-            <!-- CONCTACT FORM -->
-            <div class="contact-form-wrapper">
-              <form id="contact-form" action="http://formspree.io/{{site.data.config.contactemail}}" class="form-horizontal margin-bottom-30px" role="form" data-parsley-validate>
-                <div class="row">
-                  <div class="col-sm-6">
-                    <div class="form-group">
-                      <label for="contact-name" class="control-label sr-only">Name</label>
-                      <input type="text" class="form-control" id="contact-name" name="name" placeholder="Name*" required>
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-group">
-                      <label for="contact-email" class="control-label sr-only">Email</label>
-                      <input type="email" class="form-control" id="contact-email" name="_replyto" placeholder="Email*" required>
-                    </div>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="contact-subject" class="control-label sr-only">Subject</label>
-                  <div class="col-sm-12">
-                    <input type="text" class="form-control" id="contact-subject" name="_subject" placeholder="Subject">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="contact-message" class="control-label sr-only">Message</label>
-                  <div class="col-sm-12">
-                    <textarea class="form-control" id="contact-message" name="body" rows="5" cols="30" placeholder="Message*" required></textarea>
-                    <p class="form-block">{{site.data.texts.contact_form_help}}</p>
-                  </div>
-                </div>
-                <div class="form-group form-group-lg">
-                  <div class="col-sm-12 checkbox">
-                  <label>
-                    <input type="checkbox" id="volunteerOptIn" name="volunteerOptIn"/>I'm interested in volunteering
-                    </label>
-                  </div>
-                </div>
-                <fieldset id="volunteerInfo" style="display:none" class="animated fadeIn animation-delay-2">
-                <legend>Volunteer Information</legend>
-                  <div class="form-group">
-
-                    <div class="col-sm-12">
-                      <label for="legal-observer-experience" class="control-label">What is your experience, if any, as a legal observer?</label>
-                      <textarea class="form-control" id="legal-observer-experience" name="legal-observer-experience" rows="5" cols="30" placeholder="" required></textarea>
-                      <p class="help">You don't need to have experience as an LO to volunteer!</p>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <div class="col-sm-12">
-                      <label for="attourney-status" class="control-label">Are you a practicing attourney? If so, what is your status & expertise?</label>
-                      <textarea class="form-control" id="attourney-status" name="attourney-status" rows="5" cols="30" placeholder="Attourney Status*" required></textarea>
-                      <p class="help">You don't need to be an attourney to volunteer! Also, law students, please provide info here.</p>
-                    </div>
-                  </div>
-                   <div class="form-group">
-                    <div class="col-sm-12">
-
-                    </div>
-                    </div>
-                </fieldset>
-                <input type="hidden" name="_cc" value="{{site.data.config.contactemailalt}}" />
-                <input type="text" name="_gotcha" style="display:none" />
-                <div class="form-group">
-                  <div class="col-sm-12">
-                    <button id="submit-button" type="submit" class="btn btn-primary"><span class="fa loading-icon"></span> <span>Submit Message</span>
-                    </button>
-                  </div>
-                </div>
-                <input type="hidden" name="msg-submitted" id="msg-submitted" value="true">
-              </form>
-            </div>
-            <!-- END CONCTACT FORM -->
-          </div>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <ul class="contact-info contact-half margin-bottom-50px fa-ul">
+          <li><span class="fa fa-li fa-building-o"></span>
+            <h3>Address</h3>
+            <strong>{{site.data.config.address_header}}</strong> {% for addressline in site.data.config.address %}
+            <br/>{{addressline}} {% endfor %}
+          </li>
+          <li><span class="fa fa-li fa-phone"></span>
+            <h3>Phone</h3>
+            <p>{{site.data.config.contactphone}}</p>
+          </li>
+          <li><span class="fa fa-li fa-envelope-o"></span>
+            <h3>Email</h3>
+            <p><a href="{{site.data.config.contactemail}}">{{site.data.config.contactemail}}</a></p>
+          </li>
+        </ul>
       </div>
-    </section>
-    <!-- END CONTACT -->
+      <div class="col-md-6">
+        <!-- CONCTACT FORM -->
+        <div class="contact-form-wrapper">
+          <form id="contact-form" action="http://formspree.io/{{site.data.config.contactemail}}" class="form-horizontal margin-bottom-30px" role="form" data-parsley-validate>
+            <div class="form-group">
+              <div class="col-sm-12 checkbox">
+                <label>
+                  <input type="checkbox" id="volunteerOptIn" name="volunteerOptIn" data-toggle="toggle" data-on="Yes" data-off="No">I'm interested in working with BMLP
+                </label>
+              </div>
+            </div>
+            <fieldset id="contactInfo">
+              <legend>Contact Information</legend>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label for="contact-name" class="control-label sr-only">First Name</label>
+                    <input data-parsley-required-message="Name is required" type="text" class="form-control" id="contact-name" name="firstname" placeholder="First Name" required>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label for="contact-name" class="control-label sr-only">Last Name</label>
+                    <input data-parsley-required-message="Name is required" type="text" class="form-control" id="contact-name" name="lastname" placeholder="Last Name" required>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <label for="contact-email" class="control-label sr-only">Email</label>
+                  <input data-parsley-required-message="Email is required" type="email" class="form-control" id="contact-email" name="_replyto" placeholder="Email*" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-3">
+                  <div class="form-group">
+                    <label for="contact-email" class="control-label sr-only">Zip</label>
+                    <input data-parsley-required-message="Zip is required" data-parsley-type="integer" type="text" data-parsley-length-message="Please provide a 5 character US zipcode" data-parsley-type-message="Please provide a valid 5 digit integer" data-parsley-length="[5,5]" class="form-control" id="zip" name="zip" placeholder="Zip" maxlength="5" length="5">
+                  </div>
+                </div>
+                <div class="col-sm-9">
+                  <label for="contact-email" class="control-label sr-only">Phone</label>
+                  <input data-parsley-required-message="Email is required" type="phone" class="form-control" id="phone" name="Phone" placeholder="Phone">
+                </div>
+              </div>
+            </fieldset>
+            <fieldset id="volunteerInfo" style="display:none" class="animated fadeIn animation-delay-2">
+              <legend>Volunteer Information</legend>
+              <div class="form-group">
+                <div class="col-sm-12 checkbox">
+                  <label>
+                    <input type="checkbox" id="loTraining" name="loTraining" data-toggle="toggle" data-on="Yes" data-off="No"> Have you ever been trained as a Legal Observer?
+                  </label>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-12 checkbox">
+                  <label>
+                    <input type="checkbox" id="isLicensed" name="isLicensed" data-toggle="toggle" data-on="Yes" data-off="No"> Are you a licensed attorney?
+                  </label>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-12 checkbox">
+                  <label>
+                    <input type="checkbox" id="racialIdentity" name="racialIdentity" data-toggle="toggle" data-on="Yes" data-off="No"> Do you identify as Black, African American, or of African-Descendant?
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+            <fieldset id="messageInfo">
+              <legend>Your message</legend>
+              <div class="form-group">
+                <label for="contact-subject" class="control-label sr-only">Subject</label>
+                <div class="col-sm-12">
+                  <input type="text" class="form-control" id="contact-subject" name="_subject" placeholder="Subject">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="contact-message" class="control-label sr-only">Message</label>
+                <div class="col-sm-12">
+                  <textarea data-parsley-required-message="Email message is required" class="form-control" id="contact-message" name="body" rows="5" cols="30" placeholder="Message*" required></textarea>
+                  <p class="form-block">{{site.data.texts.contact_form_help}}</p>
+                </div>
+              </div>
+            </fieldset>
+            <input type="hidden" name="_cc" value="{{site.data.config.contactemailalt}}" />
+            <input type="hidden" name="ziplocation" id="ziplocation" />
+            <input type="text" name="_gotcha" style="display:none" />
+            <div class="form-group">
+              <div class="col-sm-12">
+                <button id="submit-button" type="submit" class="btn btn-primary"><span class="fa loading-icon"></span> <span>Submit Message</span>
+                </button>
+              </div>
+            </div>
+            <input type="hidden" name="msg-submitted" id="msg-submitted" value="true">
+          </form>
+        </div>
+        <!-- END CONCTACT FORM -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- END CONTACT -->
