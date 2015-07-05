@@ -15,19 +15,19 @@ $(document).ready(function() {
   }
 
 
-  /*----------------------------/
-	/* HERO UNIT
-	/*---------------------------*/
+ //  /*----------------------------/
+	// /* HERO UNIT
+	// /*---------------------------*/
 
-  if ($('#carousel-hero-animated').length > 0) {
-    $('#carousel-hero-animated').carousel({
-        interval: 4000
-      })
-      .on('slide.bs.carousel', function(slide) {
-        $(this).find('.item .hero-right img').removeClass('bounceOutRight');
-        $(this).find('.item.active .hero-right img').addClass('bounceOutRight');
-      });
-  }
+ //  if ($('#carousel-hero-animated').length > 0) {
+ //    $('#carousel-hero-animated').carousel({
+ //        interval: 4000
+ //      })
+ //      .on('slide.bs.carousel', function(slide) {
+ //        $(this).find('.item .hero-right img').removeClass('bounceOutRight');
+ //        $(this).find('.item.active .hero-right img').addClass('bounceOutRight');
+ //      });
+ //  }
 
 
   /*----------------------------/
@@ -53,43 +53,43 @@ $(document).ready(function() {
 	/* CAROUSEL
 	/*---------------------------*/
 
-  if ($('.slick-carousel').length > 0) {
-    $('.recent-works.slick-carousel .container').slick({
-      dots: true,
-      slidesToShow: 3,
-      cssEase: 'ease-in',
-      prevArrow: '<button type="button" data-role="none" class="btn slick-prev">Previous</button>',
-      nextArrow: '<button type="button" data-role="none" class="btn slick-next">Next</button>',
-      responsive: [{
-        breakpoint: 993,
-        settings: {
-          slidesToShow: 2
-        }
-      }, {
-        breakpoint: 481,
-        settings: {
-          slidesToShow: 1
-        }
-      }]
-    });
+  // if ($('.slick-carousel').length > 0) {
+  //   $('.recent-works.slick-carousel .container').slick({
+  //     dots: true,
+  //     slidesToShow: 3,
+  //     cssEase: 'ease-in',
+  //     prevArrow: '<button type="button" data-role="none" class="btn slick-prev">Previous</button>',
+  //     nextArrow: '<button type="button" data-role="none" class="btn slick-next">Next</button>',
+  //     responsive: [{
+  //       breakpoint: 993,
+  //       settings: {
+  //         slidesToShow: 2
+  //       }
+  //     }, {
+  //       breakpoint: 481,
+  //       settings: {
+  //         slidesToShow: 1
+  //       }
+  //     }]
+  //   });
 
-    $('.testimonial').slick({
-      speed: 500,
-      fade: true,
-      prevArrow: '<button type="button" data-role="none" class="btn slick-prev">Previous</button>',
-      nextArrow: '<button type="button" data-role="none" class="btn slick-next">Next</button>',
-    });
+  //   $('.testimonial').slick({
+  //     speed: 500,
+  //     fade: true,
+  //     prevArrow: '<button type="button" data-role="none" class="btn slick-prev">Previous</button>',
+  //     nextArrow: '<button type="button" data-role="none" class="btn slick-next">Next</button>',
+  //   });
 
-    $('#carousel-hero .carousel-inner').slick({
-      speed: 800,
-      dots: true,
-      fade: true,
-      autoplay: true,
-      autoplaySpeed: 2500,
-      prevArrow: '<button type="button" data-role="none" class="carousel-control left slick-prev">Previous</button>',
-      nextArrow: '<button type="button" data-role="none" class="carousel-control right slick-next">Next</button>',
-    });
-  }
+  //   $('#carousel-hero .carousel-inner').slick({
+  //     speed: 800,
+  //     dots: true,
+  //     fade: true,
+  //     autoplay: true,
+  //     autoplaySpeed: 2500,
+  //     prevArrow: '<button type="button" data-role="none" class="carousel-control left slick-prev">Previous</button>',
+  //     nextArrow: '<button type="button" data-role="none" class="carousel-control right slick-next">Next</button>',
+  //   });
+  // }
 
 
   /*----------------------------/
@@ -130,13 +130,13 @@ $(document).ready(function() {
     });
   }
 
-  if ($('.media-carousel').length > 0) {
-    $('.media-carousel').slick({
-      dots: true,
-      prevArrow: '<button type="button" data-role="none" class="btn slick-prev">Previous</button>',
-      nextArrow: '<button type="button" data-role="none" class="btn slick-next">Next</button>'
-    });
-  }
+  // if ($('.media-carousel').length > 0) {
+  //   $('.media-carousel').slick({
+  //     dots: true,
+  //     prevArrow: '<button type="button" data-role="none" class="btn slick-prev">Previous</button>',
+  //     nextArrow: '<button type="button" data-role="none" class="btn slick-next">Next</button>'
+  //   });
+  // }
 
 
   /*----------------------------/

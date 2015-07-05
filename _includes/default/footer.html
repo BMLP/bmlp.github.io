@@ -71,7 +71,7 @@
             <div class="newsletter">
               <h3 class="footer-heading">NEWSLETTER</h3>
               <p>Get the latest update from us by subscribing to our newsletter.</p>
-              <form  data-parsley-validate class="newsletter-form" method="POST" >
+              <form  data-parsley-validate class="newsletter-form" action="{{site.data.config.mailchimp_form_url}}" method="POST" >
                 <div class="input-group input-group-lg">
                   <input type="email" class="form-control" name="email" placeholder="youremail@domain.com">
                   <span class="input-group-btn">
@@ -91,9 +91,9 @@
                 <li>
                   <a href="https://www.twitter.com/{{site.data.config.twitter}}" target="_blank" class="twitter-bg"><span class="fa fa-twitter"></span></a>
                 </li>
-                <li>
+<!--                 <li>
                   <a href="#" class="rss-bg"><span class="fa fa-rss"></span></a>
-                </li>
+                </li> -->
               </ul>
             </div>
             <!-- END COLUMN 3 -->
