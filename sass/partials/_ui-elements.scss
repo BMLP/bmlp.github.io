@@ -436,9 +436,8 @@ ul.social-icons {
 
 			&:focus {
 				@include box-shadow(none);
-				input {
-					background-color:white;
-				}
+				background-color:white;
+				color: #444;
 			}
 		}
 
