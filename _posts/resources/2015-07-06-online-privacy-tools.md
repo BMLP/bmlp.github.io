@@ -3,7 +3,7 @@ layout: default
 category: resources
 published: true
 title: Online Privacy Tools
-fileorlink: file
+fileorlink: link
 link: "https://www.privacytools.io/"
 ---
 
