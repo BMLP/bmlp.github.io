@@ -7,7 +7,8 @@ jQuery( function($){
 	// navigation scrolling
 	$('#main-nav, .hero-left').localScroll({
 		duration: 1000,
-		easing: 'easeInOutExpo'
+		easing: 'easeInOutExpo',
+		offset: -40
 	});
 
 	// scroll to top
