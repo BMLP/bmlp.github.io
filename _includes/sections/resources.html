@@ -6,6 +6,7 @@
       <p class="lead">{{section.lead}}</p>
       <hr>
     </div>
+    <div class="row">
     {% for resource in site.categories.resources %}
     {% assign link_text = "Download This File" %}{% assign link_icon = "download" %}
       <div class="col-md-4">
@@ -17,15 +18,17 @@
             <span class="fa fa-boxed fa-{{link_icon}}"></span>
           </a>
           <h2 class="boxed-content-title">{{resource.title}}</h2>
-          <p>{{resource.content}}</p>
+          <div class="resource-content">{{resource.content}}</div>
           <div class="resource-download text-right">
-            <a class="btn btn-primary"  title="{{link_text}}" {% if resource.fileorlink =='download' %}href="{{site.baseurl}}/{{site.prose.media}}/{{resource.path}}" download title="{{link_text}}" %}{% else %} href="{{resource.link}}" target="_blank" {% endif%} >
+            <a class="btn btn-primary btn-lg btn-block"  title="{{link_text}}" {% if resource.fileorlink =='download' %}href="{{site.baseurl}}/{{site.prose.media}}/{{resource.path}}" download title="{{link_text}}" %}{% else %} href="{{resource.link}}" target="_blank" {% endif%} >
             <span class="fa fa-{{link_icon}}"></span>&nbsp;
             {{link_text}}
             </a>
           </div>
         </div>
       </div>
+
       {% endfor %}
+      </div>
     </div>
 </section>

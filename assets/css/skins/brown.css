@@ -76,11 +76,11 @@ a:hover, a:focus {
 }
 
 /* line 85, ../../../sass/skins/_skin-styles.scss */
-.boxed-content > span.fa {
+.boxed-content > span.fa-boxed {
   color: #CD853F;
 }
 /* line 89, ../../../sass/skins/_skin-styles.scss */
-.boxed-content.left-boxed-icon span.fa {
+.boxed-content.left-boxed-icon span.fa-boxed {
   background: #CD853F;
 }
 

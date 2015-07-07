@@ -82,11 +82,11 @@ a {
 }
 
 .boxed-content {
-	> span.fa {
+	> span.fa-boxed {
 		color: $accent-color;
 	}
 
-	&.left-boxed-icon span.fa {
+	&.left-boxed-icon span.fa-boxed {
 		background: $accent-color;
 	}
 }
