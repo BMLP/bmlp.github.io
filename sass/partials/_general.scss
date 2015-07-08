@@ -264,7 +264,12 @@ footer {
     height: 100px;
   }
   div.col-md-4 {
-    &:nth-child(2), &:nth-child(5), &:nth-child(8) {
+    &:nth-child(2),
+    &:nth-child(5),
+    &:nth-child(8),
+    &:nth-child(11),
+    &:nth-child(14),
+     {
       .fa-boxed, .btn-primary {
         background-color: $african-natnl-green;
         border-color: darken($african-natnl-green, 10%);
@@ -276,7 +281,9 @@ footer {
     }
     &:nth-child(3),
     &:nth-child(6),
-    &:nth-child(9), {
+    &:nth-child(9),
+    &:nth-child(12),
+    &:nth-child(15), {
       .fa-boxed, .btn-primary {
         background-color: lighten(black, 20%);
         border-color: lighten(black, 10%);
