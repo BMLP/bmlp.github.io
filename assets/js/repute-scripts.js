@@ -438,7 +438,7 @@ $(document).ready(function() {
 	        .done(function(message) {
 
 	          if (message.success) {
-	            $message = message.success;
+              var $message = $('#submit-button').attr('data-submit-success');
 	            $theForm.slideUp('medium', function() {
 	              $alert.removeClass('alert-danger');
 	              $alert.addClass('alert-success').html($message).slideDown('medium');
