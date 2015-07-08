@@ -1,10 +1,11 @@
 ---
 layout: default
 category: resources
-published: false
+published: true
 title: Police Encounter Basics
 fileorlink: link
 link: "https://www.youtube.com/watch?v=bLcTkgY-xXY"
 ---
 
-This is a good video to help people understand their rights when interacting with police.
+
+This video is designed by lawyers to help people understand their rights when interacting with police.
