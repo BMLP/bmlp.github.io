@@ -5,8 +5,8 @@ markdown: rdiscount
 
 prose:
   rooturl: ''
-  siteurl: 'https://bmlp.github.io'
-  relativeLinks: 'https://bmlp.github.io/links.jsonp'
+  siteurl: 'https://bmlp.org'
+  relativeLinks: 'https://bmlp.org/links.jsonp'
   media: 'assets/img'
   ignore:
     - index.html
