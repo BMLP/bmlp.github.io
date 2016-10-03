@@ -13,7 +13,7 @@ contactemail: info@bmlp.org
 contactphone: (347) 504-9001
 # Postal address line1 & 2
 address_header:
-address:
-  - "BMLP"
-  - "277 Broadway, Suite 1501"
-  - "New York, NY 10007"
+#address:
+ # - "BMLP"
+#  - "277 Broadway, Suite 1501"
+#  - "New York, NY 10007"
