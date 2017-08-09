@@ -1,28 +1,25 @@
-- heading: "About Us"
-  lead: >
-    Supporting liberation by helping build the legal
-    infrastructure necessary to protect emerging local movements.
-  menu: "About Us"
-  url: "about-us"
-  photo: "about-us.jpg"
-  photo_alt: "A BMLP Legal Observer observing protestors locking arms and blocking a street in Cleveland"
-
-- heading: "What we do"
-  lead: "Key Areas of Expertise, Training, and Support"
-  menu: "What We Do"
-  url: "what-we-do"
-
-- heading: "Resources"
-  lead: "Tools and Resources for Activists and Organizations"
-  menu: "Resources"
-  url: "resources"
-
-- heading: "Support Us"
-  lead: "Help BMLP Become Sustainable"
-  menu: "Support Us"
-  url: "support-us"
-
-- heading: "Get in Touch"
-  lead: "Connect with us to for updates and to partner with BMLP"
-  menu: "Contact"
-  url: "contact"
+---
+- heading: About Us
+  lead: |
+    Supporting liberation by helping build the legal infrastructure necessary to protect emerging local movements.
+  menu: About Us
+  url: about-us
+  photo: about-us.jpg
+  photo_alt: A BMLP Legal Observer observing protestors locking arms and blocking
+    a street in Cleveland
+- heading: What we do
+  lead: Key Areas of Expertise, Training, and Support
+  menu: What We Do
+  url: what-we-do
+- heading: Resources
+  lead: Tools and Resources for Activists and Organizations
+  menu: Resources
+  url: resources
+- heading: Work With Us
+  lead: How Can Your Organization Collaborate With BMLP?
+  menu: Work With Us
+  url: work-with-us
+- heading: Get in Touch
+  lead: Connect with us to for updates and to partner with BMLP
+  menu: Contact
+  url: contact
