@@ -1,27 +1,11 @@
-title: 'Black Movement-Law Project'
-about: >
-  Supporting movements for Black liberation by helping build the legal
-  infrastructure necessary to protect emerging local movements.
-about_us: >
-  <p>After working in Ferguson, Baltimore and Cleveland, lawyers and legal activists have come
-  together to create the Black Movement-Law Project. BMLP provides legal support to local
-  communities throughout the country as they demonstrate against police brutality and
-  systemic racism. We believe in a community centered approach - providing holistic legal
-  and technical service with an understanding that mass defense movement legal
-  experience is often missing from the local equation.</p><p> BMLP facilitates a rapid
-  response system supporting activists during mass demonstrations and arrests. We
-  work with local community groups to educate impacted communities in understanding
-  their rights and responding to increased militarized police presence in their
-  communities.</p><p> Our work includes legal observation and traditional know your
-  rights trainings, as well as emergency infrastructure such as jail support
-  mechanisms designed to meet the needs of the specific community. Further we have a
-  network of national human and civil rights lawyers that assist local communities in
-  urgent legal needs and long-term impact litigation.</p>
-contact_form_help: >
-  Please do not include any sensitive information in your message.
-  This form is meant to help triage inquries and requests for support.
-  We will respond within 24-48 hours. If your need is urgent, please use our phone number.
-contact_form_confirmation: >
-  Thank you for reaching out to us! We will respond to your message as soon as
-  is possible.
-copyright_footer: "&copy;2015 The Black Movement-Law Project. All Rights Reserved."
+---
+title: Black Movement-Law Project
+about: |
+  Supporting movements for Black liberation by helping build the legal infrastructure necessary to protect emerging local movements.
+about_us: |
+  <p>After working in Ferguson, Baltimore and Cleveland, lawyers and legal activists have come together to create the Black Movement-Law Project. BMLP provides legal support to local communities throughout the country as they demonstrate against police brutality and systemic racism. We believe in a community centered approach - providing holistic legal and technical service with an understanding that mass defense movement legal experience is often missing from the local equation.</p><p> BMLP facilitates a rapid response system supporting activists during mass demonstrations and arrests. We work with local community groups to educate impacted communities in understanding their rights and responding to increased militarized police presence in their communities.</p><p> Our work includes legal observation and traditional know your rights trainings, as well as emergency infrastructure such as jail support mechanisms designed to meet the needs of the specific community. Further we have a network of national human and civil rights lawyers that assist local communities in urgent legal needs and long-term impact litigation.</p>
+contact_form_help: |
+  Please do not include any sensitive information in your message. This form is meant to help triage inquries and requests for support. We will respond within 24-48 hours. If your need is urgent, please use our phone number.
+contact_form_confirmation: |
+  Thank you for reaching out to us! We will respond to your message as soon as is possible.
+copyright_footer: "&copy;2017 The Black Movement-Law Project. All Rights Reserved."
