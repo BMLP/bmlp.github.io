@@ -21,6 +21,10 @@ layout: default
 
 				{% include sections/support-us.html section=section %}
 
+			{% elsif section.url == 'donate' %}
+
+				{% include sections/donate.html section=section %}
+
 			{% elsif section.url == 'about-us' %}
 
 				{% include sections/about-us.html section=section %}
