@@ -1,10 +1,11 @@
 ---
 layout: default
-category: whatwedo
 published: true
-icon: "phone-square"
-permalink: "jail-support-training"
+icon: phone-square
+permalink: jail-support-training
 title: Jail Support
+categories: whatwedo
+date: 1959-03-03 00:00:00 +0000
 ---
 
 

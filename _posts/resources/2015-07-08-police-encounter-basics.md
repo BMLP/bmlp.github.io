@@ -1,10 +1,11 @@
 ---
 layout: default
-category: resources
 published: true
 title: Police Encounter Basics
 fileorlink: link
-link: "https://www.youtube.com/watch?v=bLcTkgY-xXY"
+link: https://www.youtube.com/watch?v=bLcTkgY-xXY
+categories: resources
+date: 2015-07-08 00:00:00 +0000
 ---
 
 

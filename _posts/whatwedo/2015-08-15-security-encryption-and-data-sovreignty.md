@@ -2,7 +2,8 @@
 layout: default
 icon: lock
 published: true
-title: "Security, Encryption, and Data Sovreignty"
+title: Security, Encryption, and Data Sovreignty
+date: 2015-08-15 00:00:00 +0000
 ---
 
 

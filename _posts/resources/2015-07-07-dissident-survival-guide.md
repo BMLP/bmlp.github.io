@@ -1,10 +1,11 @@
 ---
 layout: default
-category: resources
 published: true
 title: Dissident Survival Guide
 fileorlink: link
-link: "http://disarmy.org/book/export/html/46"
+link: http://disarmy.org/book/export/html/46
+categories: resources
+date: 2015-07-07 00:00:00 +0000
 ---
 
 

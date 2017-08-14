@@ -1,11 +1,12 @@
 ---
 title: Example Blog Post
-category: blogposts
 layout: blogpost
 author: Bob
 tags:
-    - example-tag
-permalink: 'example-blog-post'
+- example-tag
+permalink: example-blog-post
+categories: blogposts
+date: 1992-04-02 00:00:00 +0000
 ---
 In ac felis quis tortor malesuada pretium. Nam at tortor in tellus interdum sagittis. Pellentesque posuere. Nunc interdum lacus sit amet orci. Nam at tortor in tellus interdum sagittis.
 

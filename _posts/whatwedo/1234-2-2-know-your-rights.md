@@ -1,9 +1,10 @@
 ---
 layout: default
-category: whatwedo
 published: true
 icon: gavel
 title: Know Your Rights Training
+categories: whatwedo
+date: 1234-02-02 00:00:00 +0000
 ---
 
 
