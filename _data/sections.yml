@@ -3,10 +3,16 @@
   lead: |
     Supporting liberation by helping build the legal infrastructure necessary to protect emerging local movements.
   menu: About Us
-  url: about-us
   photo: about-us.jpg
   photo_alt: A BMLP Legal Observer observing protestors locking arms and blocking
     a street in Cleveland
+  url: about-us
+- heading: DONATE
+  lead: Help us keep doing our work
+  menu: DONATE
+  url: crowdrise.org/bmlp
+  photo: ''
+  photo_alt: ''
 - heading: What we do
   lead: Key Areas of Expertise, Training, and Support
   menu: What We Do
