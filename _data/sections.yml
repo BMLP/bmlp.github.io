@@ -1,15 +1,17 @@
 ---
 - heading: About Us
-  lead: |
-    Supporting liberation by helping build the legal infrastructure necessary to protect emerging local movements.
+  lead: 'Supporting liberation by helping build the legal infrastructure necessary
+    to protect emerging local movements.
+
+'
   menu: About Us
   photo: about-us.jpg
   photo_alt: A BMLP Legal Observer observing protestors locking arms and blocking
     a street in Cleveland
   url: about-us
-- heading: DONATE
+- heading: Donate
   lead: Help us keep doing our work
-  menu: DONATE
+  menu: Donate
   url: donate
   photo_alt: ''
 - heading: What we do
